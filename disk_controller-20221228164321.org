@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       BA1ADFF8-5E16-4D2F-BBBB-DB6BFDCBC76C
+:END:
+#+title: Disk Controller
+

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       13ECC0CF-EC58-43F7-B285-A35596DAA488
+:END:
+#+title: Image Classification
+
+
+
+[[id:AB5DF84C-7205-48DD-9693-5552E3AB3AAD][LeNet]]
+[[id:B41C9F3A-A730-47C0-A292-C11A113C3232][VGG]]
+[[id:4E37508F-F2C3-4D3D-B896-C627C54C14E9][GoogLeNet]]
+[[id:89FD966C-7A11-4217-9584-658366CCC5B2][ResNet]]
+
+
+The whole procedure includes:
+1. use CNN network to extract feature map
+2. use MLP network to do classification (the last layer is softmax)

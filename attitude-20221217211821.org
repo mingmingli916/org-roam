@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       CEA31C0D-5FA1-4626-B12D-F41ED09C700F
+:END:
+#+title: Attitude
+
+Attitude is everything.

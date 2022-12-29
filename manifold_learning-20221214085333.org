@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       828742B9-06DF-4C96-B876-C577D99EFA8A
+:END:
+#+title: Manifold Learning
+
+A manifold is an important concept in mathematics.
+In layman’s terms, you can think of it as a surface of any shape.
+
+You can get a visual impression with the images on google:
+https://www.google.com/search?tbm=isch&q=manifold+learning
+
+Manifold Learning convert high dimension features into low dimension features (with useful features only, dropping some unimportant features).
+We suppose there is a connected manifold space that is what we want to model to learn.
+For example, human face manifold space.
+

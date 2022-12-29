@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       F40858A5-74C2-486F-B7A0-C8CD7FF84727
+:END:
+#+title: Information
+
+* Information in computer science
+
+In computer science, information is [[id:EA7B4637-F1E9-4C61-A20B-8CC30B6E30E1][Bit]] + context.
+

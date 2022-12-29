@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       B6EC87FF-DD86-47EE-9C08-B084F032B5A0
+:END:
+#+title: Dropout
+

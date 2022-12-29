@@ -1,0 +1,106 @@
+:PROPERTIES:
+:ID:       0DF384F3-6E06-4C7D-97FF-2B69687FBD65
+:END:
+#+title: Kinesis Advantage360 Pro
+
+[[id:78D7D698-9B29-4BC3-B34A-790A2C1F2000][ZMK]]
+
+* Keyboard diagram
+
+[[file:~/note/org-roam/images/kinesis-diagram.png]]
+
+** LED Indicator Lights
+There are 3 RGB light emitting diodes (LEDs) above each thumb cluster.
+The Indicator LEDs are used to indicate the status of the keyboard and provide programming feedback.
+
+[[file:~/note/org-roam/images/LED indicator.png]]
+
+Left Key Module
+- left = Caps Lock (on/off)
+- middle = Profile/Channel (1-5)
+- right = Layer (Base, Kp, Fn, Mod)
+
+Right Key Module
+- left = Num Lock (on/off)
+- middle = Scroll Lock (on/off)
+- right = Layer (Base, Kp, Fn, Mod)
+
+
+Default Layers: Base: Off, Kp: White, Fn: Blue, Mod: Green
+
+Default Profiles: 1: White, 2: Blue, 3: Red. 4: Green. 5: Off
+
+* Basic Keyboard Use
+** Base, Multi-Layer Layout
+The Advantage360 Pro is a multi-layer keyboard which means that each physical key on the keyboard can perform multiple actions.
+The default layout features 3 easily accessible layers: The primary “Base Layer”, and two secondary layers (“Fn” and “Keypad”) which offer auxiliary key actions.
+
+Each Layer is color coded and indicated by the right most LED on each module:
+• Base: Off
+• Kp: White
+• Fn: Blue
+• Mod: Green
+
+[[file:~/note/org-roam/images/base-layer.png]]
+
+[[file:~/note/org-roam/images/fn-kp-layer.png]]
+
+
+** Disable Indicator LEDs
+If you find the indicator LEDs annoying, not useful, or want to maximize battery life you can disable all indicator LEDs with the shortcut Mod + Space.
+
+
+** Adjust backlighting
+The Pro features 5 levels of brightness and Off.
+Using the backlight will significantly affect battery life so we recommend disabling the backlight except when needed.
+To adjust the backlight up or down through the 6 levels, hold the Mod key and tap either set of arrow keys (Up/Left to increase and Down/Right to decrease).
+You can also quickly toggle backlighting on/off using the shortcut Mod + Delete, or Mod + Enter.
+
+
+
+** Toggling between the 5 Profiles
+The Pro can be paired with up to 5 different Bluetooth enabled devices.
+Use the shortcut Mod + 1-5 to toggle between the 5 Profiles to pair from scratch or reconnect with a previously paired device.
+- Profile 1: White
+- Profile 2: Blue
+- Profile 3: Red
+- Profile 4: Green
+- Profile 5: Off (Use this profile for maximum battery life)
+
+
+
+
+* Customizing your Keyboard
+
+** Setting up your GitHub Account
+1. Visit Github.com/signup and follow the prompts to create and verify your account
+2. Once your account has been set up, log-in to Github and visit the main 360 Pro code “Repository” at https://github.com/KinesisCorporation/Adv360-Pro-ZMK
+3. Click the “Fork” Button in the upper corner to create your own personal Advantage360 “repo”
+4. Click the Actions Tab and the click the green button to enable “Workflows”
+
+** Using the Keymap Editor GUI
+
+Advantage Pro Keymap Editor GUI: https://kinesiscorporation.github.io/Adv360-Pro-GUI/
+When you have finished all your changes click the green “Commit Changes” button at the bottom of the screen to compile a new firmware file with this layout.
+
+** Building Firmware
+Anytime you “Commit Changes” you can navigate to the Actions tab in your Adv360 ZMK Repo where you will see a new workflow entitled “Updated Keymap”.
+GitHub will automatically build a new set of left and right keyboard firmware files with your custom layout.
+The yellow dot indicates the build is in progress.
+Each build will take several minutes so be patient.Once the build is complete, the yellow dot will turn green.
+Click the “Updated keymap” link to load the build page and then click “firmware” to download both the left and right firmware files to your PC.
+
+
+* Firmware Update
+** Firmware Update Process
+1. Obtain the desired Advantage360 Pro firmware update files (“.uf2” files) from GitHub (Note: There are separate Left and Right versions so be sure to install them on the correct modules)
+2. Connect the left module to your PC using the included cable
+3. Then place the left module into bootloader mode using a paperclip to DOUBLE-CLICK on the Reset Button (Important Note: keystrokes on the keyboard are disabled while in bootloader).
+4. Copy and paste the left.uf2 firmware update file to the removable “Adv360 Pro” drive on your PC
+5. The keyboard will automatically install the file and disconnect the removable drive. DO NOT DISCONNECT THE KEYBOARD UNTIL THE “ADV360 PRO” DRIVE EJECTS ITSELF.
+6. Now connect the right module to your PC and place the right module into bootloader mode using its Reset Button
+7. Copy and paste the right.uf2 firmware update file to the removable “Adv360 Pro” drive on your PC
+8. The keyboard will automatically install the file and disconnect the removable drive.
+9. Once both sides have been updated you are ready to go. DO NOT ATTEMPT TO RUN DIFFERENT VERSIONS OF FIRMWARE ON THE MODULES.
+
+Note: The Shortcuts Mod + Hotkey 1 (Left side) and Mod + Hotkey 3 (Right side) can also be used to place the respective modules into bootloader mode if you prefer.

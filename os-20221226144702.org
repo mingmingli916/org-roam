@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       F4299FA8-B584-41EF-91A9-53A742992778
+:END:
+#+title: OS
+
+OS: operating system
+
+OS acts as the interface between the user and the computer hardware.
+
+The common OS are:
+- [[id:2B05F589-799B-4F88-A295-3851E0DD5AFB][Linux]]
+- [[id:A65F0AA3-AEF6-428C-A2C9-D04EA72B1EA3][Windows]]
+- [[id:40936EE0-F4B9-4F62-A4FC-123422EC5DA0][MacOS]]
+  
+
+Linux and MacOS are [[id:D4D89744-7B69-4BFA-B096-73C6ECDC7271][Unix]]-like operating system.  
+
+There are different between [[id:9EAEE46D-79B4-4B78-A8D7-AD00DD643FF9][System Software]] and OS:
+|               | System software                                                                                           | Operating system                                                                                      |
+|---------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
+| Definition    | System software is the software that manages the resources and allows a user to interact with the system. | The operating system acts as the interface between the application program and the computer hardware. |
+| Memory        | It loads in the main memory whenever required.                                                            | It resides in the main memory all the time while the system is on.                                    |
+| Memory Manage | It manages the system.                                                                                    | It manages the system and system software.                                                            |
+| Execution     | It runs only when required.                                                                               | It runs all the time.                                                                                 |
+
+[[file:~/note/org-roam/images/layered-view-of-a-computer-system.png]]
+
+
+The operating system has two primary purposes:
+- to protect the hardware from misuse by runnaway application 
+- to provide applications with simple and uniform mechanisums for manipulating complicated and often wildly different low-level hardware devices
+
+The operating system achieves both goals via the fundarmental abstractions: process, virtual memory, and files.
+[[file:~/note/org-roam/images/abstractions-provided-by-an-operating-system.png]]
+
+
+
+
+
+[[id:4D6E5AB7-A138-41F4-B7E5-51BF16909619][Process]]

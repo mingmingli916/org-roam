@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       0E765F36-FDB9-4516-A79C-06726DD7EFFC
+:END:
+#+title: Emacs
+[[id:77692E8D-EB4E-439F-B65B-D8DFF4B1D525][Buffer]]
+[[id:607F98C4-6F0D-4CE4-A119-10593A7A8994][Mode]]
+[[id:B6D6922F-AF9F-4D6A-BE1D-7117897CF532][File]]
+[[id:B372552A-58C0-4F0F-AE3D-C9DF47FCCA99][Emacs Customization]]
+[[id:F3848677-2E08-4534-BE72-507EF860185E][Move]]
+[[id:CC0B56EF-2316-4E73-8264-3D6FF6CA9DAB][Command]]
+
+* What is Emacs?
+
+Emacs is an text editor.
+
+
+Learning to use an editor is basically a matter of learning finger habit.
+Good finger habits can make you an incredibly fast typist.
+Intellectually, it's possible to absorb a lot from one reading, but you can form only a few new habit each day.
+Don't feel obliged  to learn them all at once; pick something, practice it, and move on to the next topic.
+Time spent developing good habits is time well spent.
+
+
+* Why You Use Emacs
+There are following reasons to use Emacs:
+
+- _Efficiency_: There are many commands that can move cursor without a mouse.
+- _Powerful_: It can do many things like writting LaTeX.
+- _Extensibility_: If there is some function not meeting my need, I can programm to implement it using Emacs Lisp language.
+
+* Start Emacs
+There are two ways to start Emacs:
+1. Click the Emacs icon.
+2. Use the command in your terminal.
+#+BEGIN_SRC sh
+  # To get emacs usage.
+  emacs --help
+
+  # To simply start the Emacs
+  emacs
+#+END_SRC
+
+* Exit Emacs
+
+In Emacs, use *C-x C-c* to exit.
+
+
+
+

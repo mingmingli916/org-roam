@@ -1,0 +1,68 @@
+:PROPERTIES:
+:ID:       D4400280-909D-4CD5-9C53-EB0ACBEB1BAD
+:END:
+#+title: Phrases Courantes
+
+* sulutation
+
+Comment ça va?
+Ça va?
+Comment vas-tu?
+Comment allez vous?
+
+
+Bien, toi?
+Pas pire, toi?
+Ça va très bien, merci! Et vous?
+Très bien, et toi?
+
+
+
+Bonjour!
+Allo!
+Salut!
+
+À bientôt!
+Bye!
+
+
+* dire Son Nom
+Comment tu t'appelle?
+Quel est ton nom?
+
+Je m'appell Mingming Li.
+Mon nom est Mingming Li.
+
+
+
+* dire sa Profession
+Quelle est ta profession?
+
+Je suis ingénieur.
+
+
+* dire son origine, son lieu de résidence
+Je viens de la Chine.
+J'habite à Québec.
+
+
+* langue
+Quelle langue tu parle?
+Tu parle Anglais?
+
+Je parle Chinois, Anglais et Français.
+
+* l’état civil et les enfants
+- célibataire
+- conjoint(e) de fait
+- marié(e)
+- divorcé(e)
+
+
+
+Je suis marié.
+Je n'ai pas d'enfants.
+
+
+
+

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       05A1E69D-6775-45FC-91D1-B8F013023B53
+:END:
+#+title: Concretize Thought
+[[id:D4B4FBF0-3F49-4F23-99CB-B035B899EC4D][Senses Thought]]
+[[id:99B27521-4A6F-4385-BBC3-522332854998][Abstraction Thought]]

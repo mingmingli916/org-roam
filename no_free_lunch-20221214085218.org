@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       44CA1E79-6A9E-47FA-8417-1B06910D7184
+:END:
+#+title: No Free Lunch
+
+
+For any algorithms \(a_{1}\) and \(a_{2}\), at iteration step \(m\)
+\begin{equation}
+  \label{eq:1}
+  \sum P(d_{m}^{y}|f,m,a_{1}) = \sum P(d_{m}^{y}|f,m,a_{2})
+\end{equation}
+where \(d_{m}^{y}\) denotes the ordered set of size \(m\) of the cost values \(y\) associated to input values \(x \in X\), \(f:X\longrightarrow Y\) is the function being optimized and \(P(d_{m}^{y}|f,m,a)\) is the conditional probability of obtaining a given sequence of cost values from algorithm \(a\) run \(m\) times on function \(f\).
+
+The no free lunch theorem implies that we must design our machine learning algorithms to perform well on a specific task but not a universal task.
+
+
+This theory will effect how we chose the [[id:1F88B473-B4BC-4EA2-975D-9F6F69BCA364][Model]] and how large the model [[id:4487C2B2-FB61-47B9-9315-DEC565AABA75][Capacity]] effect.

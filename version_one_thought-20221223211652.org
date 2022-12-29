@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       90B753D5-F7F2-48DF-B3B6-52D78944C5B0
+:END:
+#+title: Version One Thought
+
+
+When you want to do something, you do not need to implement it perfectly.
+In fact, in programming, this sometimes are harmful.
+What you should do is, get a fast version 1.
+After that, you can improve it to get a better version like version 2, 3, and so on.

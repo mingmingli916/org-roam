@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6EC8A829-F01E-4866-BD77-03798B3D39F8
+:END:
+#+title: Linked List
+

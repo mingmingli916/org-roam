@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       D316E213-181F-4710-A9EB-92141E512F52
+:END:
+#+title: Segmentation
+
+[[id:4ACC20C2-B350-4907-BED4-6A5928C288FF][FCN]]
+
+Segmentation is the classification on pixel level.
+It usually have the following types:
+- semantic segmentation
+- instance segmentation
+- panoptic segmentation (semantic segmentation + instance segmentation)
+  

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       3EB40FB4-8452-4AED-AE2E-C6C7560E5AF7
+:END:
+#+title: Optimization
+
+[[id:DC4D2577-D235-4C33-876D-3EB173BA91E2][SGD]]
+[[id:D44B9227-4AF2-42FD-837F-ECE816A3ECAB][Momentum]]
+[[id:5EEDB3F0-F14B-419F-96C4-039D8CD84CD6][Nesterov Momentum]]
+[[id:5E9A97C9-8ED1-435C-A5F2-F35E7CB124C3][AdaGrad]]
+[[id:09EF457A-2143-4927-8C94-F21164C1E876][RMSProp]]
+[[id:9E6705A2-4588-4119-BA73-E7DE199D119D][Adam]]
+
+
+The goal of optimization is to use data to adjust the parameters in model.
+That is to say, the optimizing process is the process of learning.
+
+
+But what do we mean by learning?
+Mitchell provides a succinct definition:
+``A computer program is said to learn from experience $E$ with respect to some class of tasks $T$ and performance measure $P$, if its performance at tasks in $T$, as measured by $P$, improves with experience $E$''
+Now, how does the learn happen?
+
+Thought this process, the model improves its performance at tasks.

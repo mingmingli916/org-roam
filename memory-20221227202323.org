@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2EE31FBD-EC76-497F-A217-4C58007838D4
+:END:
+#+title: Memory
+
+[[file:~/note/org-roam/images/memory-hierarchy.png]]
+
+
+[[id:C94043DC-F4F4-47CA-92FC-23FB8CA22FD9][Virtual Memory]]

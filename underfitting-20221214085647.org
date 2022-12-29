@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       C2ECD2E8-9849-453E-AE09-09C2C5384535
+:END:
+#+title: Underfitting
+
+The error on training data is called _training error_.
+The error on test data is called _test error_.
+
+Underfitting occurs when the model is not able to obtain a sufficient low error value on the training set.
+
+
+Underfitting can be caused by low [[id:4487C2B2-FB61-47B9-9315-DEC565AABA75][Capacity]].

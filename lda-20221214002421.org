@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       C6179B09-1C4C-4A76-AC45-A3351E8BB5CE
+:END:
+#+title: LDA
+
+Latent Dirichlet Allocation

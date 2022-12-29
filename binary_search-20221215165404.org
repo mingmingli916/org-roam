@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       FF5BDA3D-EBBB-4780-98E4-8DAD5A86931E
+:END:
+#+title: Binary Search
+
+[[id:A1B7F215-43B7-4B14-8735-8D3B584A7CC9][Divide and Conquer]]

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       59D49734-498A-4282-9814-AC22B1D5A2EB
+:END:
+#+title: Array Type
+
+An *array* is composed of an arbitrary number of slots for holding or
+referring to other Lisp objects, arranged in a contiguous block of
+memory. (like array in data structure)
+
+
+Arrays are fixed-length sequences.
+
+
+They are further subdivided into:
+- [[id:4760711D-E0E8-489D-8395-F54C744EECC3][String Type]]
+- [[id:8A369EAE-E1A7-4602-93D3-C099E3691E79][Vector Type]]
+- [[id:81A758F7-C525-4BE4-B576-71EB6FAA96E1][Char-Table Type]]
+- [[id:79593B60-2A98-42C2-BDFB-BE48296266DB][Bool-Vector Type]]
+
+  
+
+

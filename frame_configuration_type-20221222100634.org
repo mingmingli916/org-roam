@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0525DA45-9734-4796-9C67-C8CC35D80A8F
+:END:
+#+title: Frame Configuration Type
+
+A *frame configuration* stores information about the positions, sizes,
+and contents of the windows in all frames. It is not a primitive type.
+It is actually a list whose car is =frame-configuration= and whose cdr
+is an alist. Each alist element describes one frame, which appears as
+the car of that element.
+
+

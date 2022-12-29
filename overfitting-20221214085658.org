@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       94DA8AD3-43D1-4357-9FAF-46F820106FD7
+:END:
+#+title: Overfitting
+
+
+The error on training data is called _training error_.
+The error on test data is called _test error_.
+
+
+Overfitting occurs when the gap between the training error and test error is too large.
+
+Overfitting can be caused by high [[id:4487C2B2-FB61-47B9-9315-DEC565AABA75][Capacity]] and [[id:B0ECD4D7-94CF-40E9-AAA8-ECF77C6E9A31][Lack of Data]].

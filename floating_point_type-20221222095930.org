@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       42EB0ED4-9AF9-4918-8A0D-69E52661F390
+:END:
+#+title: Floating-Point Type
+
+
+Emacs uses the C data type =double= to store the floating-point value.
+
+The printed representation for floating-point numbers requires either a
+decimal point (with at least one digit following), an exponent, or both.
+
+#+begin_src
+;; 1500
+1500.0
++15e2
+15.0e+2
++1500000e-3
+.15e4
+#+end_src
+
+
+The range of floating-point numbers is the same as the range of the C
+data type =double= on the machine you are using.
+
+The read syntax for floating-point numbers requires either a decimal
+point, an exponent, or both. Optional signs (=+= or =-=) precede the
+number and its exponent.
+
+#+begin_src
+;; 1500
+1500.0
++15e2
+15.0e+2
++1500000e-3
+.15e4
+#+end_src
+
+Emacs Lisp requires at least one digit after a decimal point in a
+floating-point number that does not have an exponent. =1500.= is an
+integer.
+
+#+begin_src
+;; read syntaxes for special floating-point values.
+1.0e+INF                                ; 1.0e+INF
+-1.0e+INF                               ; -1.0e+INF
+0.0e+NaN                                ; 0.0e+NaN
+-0.0e+NaN                               ; -0.0e+NaN
+#+end_src
+
+The following functions are specialized for handling floating-point
+numbers:
+
+- =(isnan x)=
+  
+  This predicate returns =t= if its floating-point argument is a =NaN=,
+  =nil= otherwise.
+
+- =(frexp x)=
+  
+  This function returns a cons cell =(s . e)=, where =s= and =e= are
+  respectively the significand and exponent of the floating-point number
+  =x=.
+
+- =(ldexp s e)=
+  
+  Given a numeric significand =s= and an integer exponent =e=, this
+  function returns the floating point number \(s2^{e}\).
+
+- =(copysign x1 x2)=
+  
+  This function copies the sign of =x2= to the value of =x1=, and
+  returns the result. =x1= and =x2= must be floating point.
+
+- =(logb x)=
+  
+  This function returns the binary exponent of =x=.

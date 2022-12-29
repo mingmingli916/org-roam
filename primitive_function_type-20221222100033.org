@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       D3DBC4A4-35B1-46C4-A6FB-E706CC34CCFC
+:END:
+#+title: Primitive Function Type
+
+A *primitive function* is a function callable from Lisp but written in
+the C programming language. Primitive functions are also called *subrs*
+or *built-in functions*. (The word "subr" is derived from "subroutine".)
+Most primitive functions evaluate all their arguments when they are
+called. A primitive function that does not evaluate all its arguments is
+called a *special form*.
+
+Primitive functions have no read syntax and print in hash notation with
+the name of the subroutine.
+
+#+begin_example
+;; symbol-function: access the function cell of the symbol
+(symbol-function 'car)                  ; #<subr car>
+;; To check if it is a primitive function.
+(subrp (symbol-function 'car))          ; t
+#+end_example
+
+

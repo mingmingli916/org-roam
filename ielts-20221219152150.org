@@ -1,0 +1,91 @@
+:PROPERTIES:
+:ID:       D857F945-9ABD-4776-A4D2-EF0DA173AF53
+:END:
+#+title: IELTS
+
+International English Language Testing System
+
+* DONE IDP
+CLOSED: [2022-12-21 Wed 08:32]
+:LOGBOOK:
+- State "DONE"       from              [2022-12-21 Wed 08:32]
+:END:
+There are test center in Quebec.
+
+https://ielts.idp.com/book/IELTS
+
+
+1. select the test center
+2. select the date
+3. register new user
+4. pay
+
+* TODO Prepare for the Test [0/1]
+** TODO Listening [1/1]
+*** DONE Listing overview
+CLOSED: [2022-12-21 Wed 09:13]
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2022-12-21 Wed 09:13]
+:END:
+**** Facts
+- 30 minutes for listening and answering
+- 10 minutes for transferring the answers
+- 4 sections
+  1. conversation between two people on a general, everyday topic
+  2. general, non-academic monologues
+  3. discussion up to 4 people in a academic situation
+  4. academic lecture
+- each section have 10 questions
+- can listen to the test once
+- 7 type of questions
+  1. form or notes or flowchart completion
+     - how many words
+     - words before and after the gap
+  2. multiple-choice questions
+  3. short answer questions
+     - with word limit
+     - use words you have *heard*
+  4. sentence completion
+  5. labeling a diagram or map
+     - preview the diagram or map before listening
+     - look at the labels and locate what needs labelling
+     - listen to location words
+  6. classification
+  7. matching
+     - read the question to find the topic
+     - what do the numbered question have in common
+- 1 point for each correct answer
+- assess
+  - section 1 and 2
+    - main ideas
+    - factual information
+  - section 3 and 4
+    - main ideas
+    - factual information
+    - agreement between speakers
+    - academic explanation
+    - speaker's attitudes and opinions
+
+*** Listening Strategies
+- before listening
+  - using audio instructions
+  - predicting
+    - who
+    - where
+    - how
+    - what
+  - underline keywords
+- while listening
+  - being ready to hear
+    - different words with the same meaning
+    - keyword
+  - listening while reading
+- after listening
+  - checking answers
+    - followed the instructions
+    - good grammar
+    - spelling
+  - transferring answers
+
+
+    

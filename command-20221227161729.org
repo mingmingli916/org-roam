@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       CC0B56EF-2316-4E73-8264-3D6FF6CA9DAB
+:END:
+#+title: Command
+
+A command is actually a function in programming language like C or Elisp.
+The arguments provided to command are the parameters passed into the corresponding function.
+
+
+[[id:7F96E391-4CB1-45FB-ABDD-6FE24538F84B][Key Binding]]

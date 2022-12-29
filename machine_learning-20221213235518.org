@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       F1A5DE22-91C7-4872-9F08-4BB3F084C590
+:END:
+#+title: Machine Learning
+
+[[id:CC08C7CD-063F-4069-9FA5-ADD61A9F8771][Math]]
+[[id:1F88B473-B4BC-4EA2-975D-9F6F69BCA364][Model]]
+[[id:6779A1B2-B072-446B-8BC9-5BDB8DFE19C9][Data]]
+[[id:292C7125-8E6A-4F68-ABB6-D78C912CCDAB][Theory]]
+[[id:D599C2A2-EECC-4079-A9AF-D56081D897E8][Skills]]
+[[id:2D8C48FD-14EF-4441-ACC3-4D4AD9A76AEB][Programming]]
+[[id:FD0AB4D0-3835-46BC-8547-A93872545910][Big Data]]
+
+[[id:4F6134EA-58A7-48CD-8A78-F1F83BFFAB1B][Project]]
+
+[[id:0C14212B-7DCF-4077-B9AF-1693DC736FB9][English]]
+
+A machine learning algorithm is an algorithm that is able to learn from data.
+
+But what do we mean by learning?
+Mitchell provides a succinct definition:
+``A computer program is said to learn from experience $E$ with respect to some class of tasks $T$ and performance measure $P$, if its performance at tasks in $T$, as measured by $P$, improves with experience $E$''
+
+How does the learn happen?
+The algorithm learns by adjusting the parameters contained in it.
+

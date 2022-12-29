@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       38565D58-48E5-4052-9EB2-CAFC1AA8B4AE
+:END:
+#+title: Consistency
+

@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       6A9069FD-63FB-4FB1-828B-E6B7ED60E1AC
+:END:
+#+title: Elisp
+[[id:0E765F36-FDB9-4516-A79C-06726DD7EFFC][Emacs]]
+
+Most of the GNU macs text editor is written in the programming language called Emacs Lisp.
+It is useful to do *customization* and *extension* to Emacs.
+
+
+Lisp (LISt Processing language) was first developed in the late 1950s at the Massachusetts Institute of Technology for research in artificial intelligence.
+(括号，李白是武林高手)
+
+Dozens of Lisp implementations have been built over the years, each with its own idiosyncrasies.
+Many of them were inspired by Maclisp, which was written in the 1960s at MIT’s Project MAC.
+Eventually the implementers of the descendants of Maclisp came together and developed a standard for Lisp systems, called Common Lisp.
+
+GNU Emacs Lisp is largely inspired by Maclisp, and a little by Common Lisp.
+
+[[id:74616282-7490-4D9D-8AE1-B39D8839AC9A][Lisp Data Types]]
+
+* TODO [#C] Elisp Programming Language[7/42]                          :hobby:
+** DONE [#C] Introduction
+   CLOSED: [2022-11-25 Fri 10:32] SCHEDULED: <2022-11-25 Fri>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2022-11-25 Fri 10:32]
+   :END:
+** DONE [#C] Lisp Data Type
+   CLOSED: [2022-11-27 Sun 18:26] DEADLINE: <2022-11-27 Sun>
+   :LOGBOOK:
+   - State "DONE"       from "DOING"      [2022-11-27 Sun 18:26]
+   :END:
+** DONE [#C] Numbers
+   CLOSED: [2022-11-28 Mon 07:47]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2022-11-28 Mon 07:47]
+   :END:
+** DONE [#C] Strings and Characters
+CLOSED: [2022-11-30 Wed 10:45]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-11-30 Wed 10:45]
+:END:
+** DONE [#C] Lists
+CLOSED: [2022-12-04 Sun 13:29]
+:LOGBOOK:
+- CLOSING NOTE [2022-12-04 Sun 13:29] 
+:END:
+** DONE [#C] Sequences, Arrays, and Vectors
+CLOSED: [2022-12-16 Fri 23:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-16 Fri 23:52]
+CLOCK: [2022-12-12 Mon 18:21]--[2022-12-12 Mon 19:28] =>  1:07
+CLOCK: [2022-12-12 Mon 13:21]--[2022-12-12 Mon 13:34] =>  0:13
+:END:
+** DONE [#C] Records
+CLOSED: [2022-12-17 Sat 00:09]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-17 Sat 00:09]
+:END:
+** TODO [#C] Hash Tables
+** TODO [#C] Symbols
+** TODO [#C] Evaluation
+** TODO [#C] Control Structures
+** TODO [#C] Variables
+** TODO [#C] Functions
+** TODO [#C] Macros
+** TODO [#C] Customization Settings
+** TODO [#C] Loading
+** TODO [#C] Byte Compilation
+** TODO [#C] Compilation of Lisp to Native Code
+** TODO [#C] Debugging Lisp Programs
+** TODO [#C] Reading and Printing Lisp Ojbects
+** TODO [#C] Minibuffers
+** TODO [#C] Command Loop
+** TODO [#C] Keymaps
+** TODO [#C] Major and Minor Modes
+** TODO [#C] Documentation
+** TODO [#C] Files
+** TODO [#C] Backups and Auto-Saving
+** TODO [#C] Buffers
+** TODO [#C] Windows
+** TODO [#C] Frames
+** TODO [#C] Positions
+** TODO [#C] Markers
+** TODO [#C] Text
+** TODO [#C] Non-ASCII Characters
+** TODO [#C] Searching and Matching
+** TODO [#C] Syntax Tables
+** TODO [#C] Abbrevs and Abbrev Expansion
+** TODO [#C] Threads
+** TODO [#C] Processes
+** TODO [#C] Emacs Display
+** TODO [#C] Operating System Interface
+** TODO [#C] Preparing Lisp Code for Distribution 

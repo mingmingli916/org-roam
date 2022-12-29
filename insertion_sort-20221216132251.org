@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       F3927796-5CFC-4002-AF5B-CF728C204808
+:END:
+#+title: Insertion Sort
+

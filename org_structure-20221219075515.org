@@ -1,0 +1,126 @@
+:PROPERTIES:
+:ID:       EC6CA2DE-E090-45BD-B987-340885CD5E38
+:END:
+#+title: Org Structure
+
+[[id:08AEE402-59AC-41E0-99DA-E7D43247693E][Outline Mode]]
+
+Because Org is implemented to top of outline mode, it supports the document structure functions similar to outline mode.
+* Headlines
+
+Headlines define the structure of an outline tree.
+Org headlines start on the left margin with one or more stars followed by a space.
+
+#+BEGIN_SRC
+  * Top level headline
+  ** Second level
+  *** Third level
+      some text
+  *** Third level
+      more text
+  * Another top level headline
+#+END_SRC
+
+* Motion
+Here are the motion commands can be used for headlines.
+
+#+CAPTION: Motion commands
+| *Binding*   | *Meaning*                           |
+|-----------+-----------------------------------|
+| *C-c C-n*   | Next heading                      |
+| *C-c C-p*   | Previous heading                  |
+| *C-c C-f*   | Next heading same level           |
+| *C-c C-b*   | Previous heading same level       |
+| *C-c C-u*   | Backward to higher level heading. |
+
+
+* Visibility Cycling
+
+Outlines make it possible to hide parts of the text in the buffer.
+Org uses just two commands, bound to *TAB* and *S-TAB* to change the visibility in the buffer.
+
+#+CAPTION: Visibility cycling commands
+| **Binding** | *Meaning*                                                                                                           |
+|-----------+-------------------------------------------------------------------------------------------------------------------|
+| *TAB*       | Rotate current subtree among "fold - children - subtree". Point must be on a headline for this to work.           |
+| *S-TAB*     | Rotate the entire buffer among "overview - content - show all"                                                    |
+| *C-c C-r*   | Reveal context around point, showing the current entry, the following heading and the hierarchy above.            |
+| *C-c C-k*   | Expose all the headings of the subtree, but not their bodies.                                                     |
+| *C-c TAB*   | Expose all direct children of the subtree. With a numeric prefix argument N, expose all children down to level N. |
+| *C-c C-x b* | Show the current subtree in an indirect buffer                                                                    |
+
+
+* Structure Editing
+#+CAPTION: Structure editing commands
+| **Binding**           | *Meaning*                                                                                                                                                                                                                              |
+|---------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *M-RET*               | Insert a new heading, item or row.                                                                                                                                                                                                   |
+| *C-RET*               | Insert a new heading at the end of the current subtree.                                                                                                                                                                              |
+| *M-S-RET*             | Insert new TODO entry with same level as current heading.                                                                                                                                                                            |
+| *TAB*                 | In a new entry with no text yet, the first TAB demotes the entry to become a child of the previous one. The next TAB makes it a parent, and so on, all the way to top level. Yet another TAB, and you are back to the initial level. |
+| *M-\(\leftarrow\)*    | Promote current heading by one level.                                                                                                                                                                                                |
+| *M-\(\rightarrow\)*   | Demote current heading by one level                                                                                                                                                                                                  |
+| *M-S-\(\leftarrow\)*  | Promote the current subtree by one level.                                                                                                                                                                                            |
+| *M-S-\(\rightarrow\)* | Demote the current subtree by one level.                                                                                                                                                                                             |
+| *M-\(\uparrow\)*      | Move subtree up, i.e., swap with previous subtree of same level.                                                                                                                                                                     |
+| *M-\(\downarrow\)*    | Move subtree down, i.e., swap with next subtree of same level.                                                                                                                                                                       |
+| *C-c @*               | Mark the subtree at point. Hitting repeatedly marks subsequent subtrees of the same level as the marked subtree.                                                                                                                     |
+| *C-c C-x C-w*         | Kill subtree, i.e., remove it from buffer but save in kill ring. With a numeric prefix argument N, kill N sequential subtrees.                                                                                                       |
+| *C-c C-x M-w*         | Copy subtree to kill ring. With a numeric prefix argument N, copy the N sequential subtrees.                                                                                                                                         |
+| *C-c C-x C-y*         | Yank subtree from kill ring. This does modify the level of the subtree to make sure the tree fits in nicely at the yank position.                                                                                                    |
+| *C-c C-w*             | Move the entry or entries at point to another heading.                                                                                                                                                                               |
+| *C-c ^*               | Sort same-level entries. When there is an active region, all entries in the region are sorted. Otherwise the children of the current headline are sorted.                                                                            |
+| *C-x n s*             | Narrow buffer to current subtree.                                                                                                                                                                                                    |
+| *C-x n b*             | Narrow buffer to current block.                                                                                                                                                                                                      |
+| *C-x n w*             | Widen buffer to remove narrowing.                                                                                                                                                                                                    |
+| *C-c **               | Turn a normal line or plain list item into a headline---so that it becomes a subheading at its location.                                                                                                                             |
+
+
+* Sparse Tree
+
+An important feature of Org mode is the ability to construct *sparse
+trees* for selected information in an outline tree, so that the entire
+document is folded as much as possible, but the selected information is
+made visible along with the headline structure above it.
+
+#+CAPTION: Sparse tree commands
+| **Binding**        | *Meaning*                                                               |
+|--------------------+-------------------------------------------------------------------------|
+| *C-c /*            | This prompts for an extra key to select a sparse-tree creating command. |
+| *M-g n or M-g M-n* | Jump to the next sparse tree match in this buffer.                      |
+| *M-g p or M-g M-p* | Jump to the previous sparse tree match in this buffer.                  |
+
+
+* Drawers
+
+Sometimes you want to keep information associated with an entry, but you normally do not want to see it.
+For this, Org mode has *drawers*.
+They can contain anything but a headline and another drawer.
+Drawers look like this:
+
+#+begin_src
+  ** This is a headline
+  Still outside the drawer
+  :DRAWERNAME:
+  This is inside the drawer.
+  :END:
+  After the drawer.
+#+end_src
+
+You can interactively insert a drawer at point by typing *C-c C-x d*.
+With an active region, this command puts the region inside the drawer.
+With a prefix argument, this command creates a 'PROPERTIES' drawer right below the current headline.
+Org mode uses this special drawer for storing properties.
+You cannot use it for anything else.
+
+Visibility cycling on the headline hides and shows the entry, but keep the drawer collapsed to a single line.
+In order to look inside the drawer, you need to move point to the drawer line and press *TAB* there.
+
+* Block
+
+Org mode uses *#+BEGIN ... #+END* blocks for various purposes from
+including source code examples to capturing time logging information.
+These blocks can be folded and unfolded by pressing TAB in the *#+BEGIN*
+line.
+
+

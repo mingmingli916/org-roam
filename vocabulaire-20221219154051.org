@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       D5A406C8-93BA-4DAA-84FA-E86C4F598AE6
+:END:
+#+title: Vocabulaire
+
+* word
+
+
+** épisode
+SCHEDULED: <2022-12-29 Thu>
+
+** connaître
+SCHEDULED: <2022-12-29 Thu>
+知道，认识
+
+https://www.frdic.com/dicts/fr/connaître
+
+
+** encercler
+SCHEDULED: <2022-12-29 Thu>
+画圈
+
+
+

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0AE6EB00-7725-432F-8EA6-17248CE6F8A5
+:END:
+#+title: Macro Type
+
+A *Lisp macro* is a user-defined construct that extends the Lisp
+language. It is represented as an object much like a function, but with
+different argument-passing semantics. A Lisp macro has the form of a
+list whose first element is the symbol =macro= and whose cdr is a Lisp
+function object, including the =lambda= symbol.
+
+Lisp macro objects are usually defined with the built-in =defmacro=
+macro, but any list that begins with =macro= is a macro as far as Emacs
+is concerned.
+
+

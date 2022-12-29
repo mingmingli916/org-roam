@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       68A5D886-E162-47FC-9CD8-4A5A1443E7DF
+:END:
+#+title: Graphic Adapter
+

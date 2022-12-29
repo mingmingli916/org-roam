@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       77692E8D-EB4E-439F-B65B-D8DFF4B1D525
+:END:
+#+title: Buffer
+
+[[id:EC9FFD12-C7A7-4F78-93B0-84E9596517F6][Cache Thought]]
+
+In Emacs, you don't really edit _files_ (stored on disk).
+Instead, Emacs copies the content of a file into a temporary _buffer_ and you edit that.
+The file on disk doesn't change until you save the buffer.
+
+
+Buffers are independent of windows and frames.
+A Buffer may contains a file or be Emacs-generated.
+The name of the buffer that containing a file is the same name with the file.
+The name of the buffer that are Emacs-generated has the format _\ast{}buffer name\ast{}_.
+For example, _\ast{}Help\ast{}, \ast{}scratch\ast{}, \ast{}Messages\ast{}_ as so on.

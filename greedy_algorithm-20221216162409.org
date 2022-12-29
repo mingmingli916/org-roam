@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       FCBC7264-CF84-4318-9145-D0085BFF2E52
+:END:
+#+title: Greedy Algorithm
+
+A greedy algorithm always makes the choice that looks best at the moment.

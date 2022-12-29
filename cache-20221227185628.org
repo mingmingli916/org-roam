@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       3FAD7E3A-B4B5-40BB-A2A0-D8C317493EDC
+:END:
+#+title: Cache
+
+Because of *physical laws*, larger storage devices are slower than smaller storage devices.
+And faster devices are more expensive to build than their slower counterparts.
+
+
+Similarly, a typical register file stores only a few hundred bytes of information, as opposed to billions of bytes in the main memory.
+However, the processor can read data from the register file almost 100 times faster than from memory.
+It is easier and cheaper to make processors run faster than it is to make main memory run faster.
+To deal with the processor-memory gap, system designers include smaller, faster storage devices called cache memories (or simply caches) that serve as temporary staging areas for information that the processor is likely to need in the near future.
+
+
+[[file:~/note/org-roam/images/cache-memories.png]]
+
+

@@ -1,0 +1,97 @@
+:PROPERTIES:
+:ID:       4760711D-E0E8-489D-8395-F54C744EECC3
+:END:
+#+title: String Type
+
+Strings in Lisp are constants: evaluation of a string returns the same
+string.
+
+* Syntax for Strings
+
+The read syntax for a string is a double-quote, an arbitrary number of
+characters, and another double-quote (="like this."=). To include a
+double-quote in a string, precede it with a backslash (="\""=).
+Likewise, you can include a backslash by preceding it with another
+backslash (="\\"=).
+
+The newline character is not special in the read syntax for strings; if
+you write a new line between the double-quotes, it becomes a character
+in the string. But an escaped newline --- one that is preceded by
+'\'---does not become part of the string; i.e., the Lisp reader ignores
+an escaped newline while reading a string. An escaped space '\ ' is
+likewise ignored.
+
+* Non-ASCII Characters in Strings
+
+There are two text representations for non-ASCII characters in Emacs
+strings:
+
+- multibyte\\
+  Its value maybe between 0 and 4194303 (\(2^{22}-1\)). It store raw
+  bytes.
+
+- unibyte\\
+  Its value is between 0 and 255 (\(2^{8}-1\)). It store human-readable
+  text.
+
+In both cases, characters above 127 are non-ASCII.
+
+You can include a non-ASCII character in a string constant by writing it
+literally. Instead of writing a character literally into a multibyte
+string, you can write it as its character code using an escape sequence.
+
+* Nonprinting Characters in Strings
+
+You can use the same backslash escape-sequences in a string constant as
+in character literals (but do not use the question mark that begins a
+character constant).
+
+#+begin_example
+"\t"                                    ; tab
+"\C-a"                                  ; C-a
+#+end_example
+
+However, not all of the characters you can write with backslash
+escape-sequences are valid in strings. The only control characters that
+a string can hold are the ASCII control characters. Strings do not
+distinguish case in ASCII control characters.
+
+Properly speaking, strings cannot hold meta characters; but when a
+string is to be used as a key sequence, there is a special convention
+that provides a way to represent meta versions of ASCII characters in a
+string. If you use the '\M-' syntax to indicate a meta character in a
+string constant, this sets the \(2^{7}\) bit of the character in the
+string. If the string is used in =define-key= or =lookup-key=, this
+numeric code is translated into the equivalent meta character.
+
+Strings cannot hold characters that have the hyper, super, or alt
+modifiers.
+
+* Text Properties in Strings
+
+A string can hold properties for the characters it contains, in addition
+to the characters themselves. This enables programs that copy text
+between strings and buffers to copy the text's properties with no
+special effort. Strings with text properties use a special read and
+print syntax:
+
+#+begin_example
+#("characters" property-data...)
+#+end_example
+
+where =property-data= consists of zero or more elements, in groups of
+three as follows:
+
+#+begin_example
+beg end plist
+#+end_example
+
+The elements =beg= and =end= are integers, and together specify a range
+of indices in the string; =plist= is the property list for that range.
+For example:
+
+#+begin_example
+#("foo bar" 0 3 (face bold) 3 4 nil 4 7 (face italic))
+#+end_example
+
+

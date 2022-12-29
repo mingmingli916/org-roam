@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       99B27521-4A6F-4385-BBC3-522332854998
+:END:
+#+title: Abstraction Thought
+
+Abstraction thought includes the following cases:
+- we extract something import in common things.
+- we use something that does not exist to replace the existing thing.
+
+[[id:05A1E69D-6775-45FC-91D1-B8F013023B53][Concretize Thought]] is the opposite of the abstraction thought. 
+
+This is thought is often used in [[id:CC08C7CD-063F-4069-9FA5-ADD61A9F8771][Math]].
+
+

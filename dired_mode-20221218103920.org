@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       974E89CD-4D65-4518-9349-18A5B96A2DC4
+:END:
+#+title: Dired Mode
+

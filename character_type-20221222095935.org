@@ -1,0 +1,121 @@
+:PROPERTIES:
+:ID:       69AD65EC-8ADE-4490-B65A-9D942BE13C2C
+:END:
+#+title: Character Type
+
+
+
+A character in Emacs Lisp is nothing more than an integer. In other
+words, characters are represented by their character codes. For example,
+the character A is represented as the integer 65.
+
+* Basic Char Syntax
+
+Since characters are really integers, the printed representation of a
+character is a decimal number. This is also a possible read syntax for a
+character, but writing characters that way in Lisp programs is not clear
+programming. You should *always* use the special read syntax formats
+that Emacs Lisp provides for characters. These syntax formats start with
+a question mark.
+
+The usual read syntax for alphanumeric characters is a question mark
+followed by the character; thus, '?A' for the character A, '?B' for the
+character B, and '?a' for the character a.
+
+#+begin_src
+?A                                      ; 65
+?B                                      ; 66
+?a                                      ; 97
+#+end_src
+
+You can use the same syntax for punctuation characters. However, if the
+punctuation character has a special syntactic meaning in Lisp, you must
+quote it with a '\'. For example, '=?\(=' is the way to write the
+open-paren character. Likewise, if the character is '\', you must use a
+second '\' to quote it: '?\\'.
+
+#+begin_src
+
+?\a                                     ; control-g
+?\b                                     ; backspace, BS
+?\t                                     ; tab, TAB
+?\n                                     ; newline
+?\\                                     ; backslash character, \
+?\d                                     ; delete character, DEL
+?\e                                     ; escape character, ESC
+?\r                                     ; carriage return, RET
+#+end_src
+
+These sequences which start with backslash are also known as *escape
+sequences*, because backslash plays the role of an escape character. A
+backslash is allowed, and harmless, preceding any character without a
+special escape meaning; thus, '?\+' is equivalent to '?+'.
+
+* General Escape Syntax
+
+In addition to the specific escape sequences for special important
+control characters, Emacs provides several types of escape syntax that
+you can use to specify non-ASCII text characters.
+
+- You can specify characters by their Unicode names, if any. ?\{NAME}
+  represents the Unicode character named NAME.
+  =?\N{LATIN SMALL LETTER A WITH GRAVE}=.
+
+- You can specify characters by their Unicode values. =?\N{U+X}=
+  represents a character with Unicode code point X, where X is a
+  hexadecimal number. =?\N{U+E0}=.
+
+- You can specify characters by their hexadecimal character codes. A
+  hexadecimal escape sequence consists of a backslash, 'x', and the
+  hexadecimal character code. =?\x41=.
+
+- You can specify characters by their character code in octal. An octal
+  escape sequence consists of a backslash followed by up to three octal
+  digits. =?\101=.
+
+* Control-Character Syntax
+
+Control characters can be represented using yet another read syntax.
+This consists of a question mark (*?*) followed by a backslash (*\*),
+caret (*^*), and the corresponding non-control character, in either
+upper or lower case. Instead of the *^*, you can use *C-*.
+
+#+begin_src
+?\^I                                    ; C-i
+?\^i                                    ; C-i
+?\C-I                                   ; C-i
+?\C-i                                   ; C-i
+#+end_src
+
+* Meta-Character Syntax
+
+A *meta* character is a character typed with the META modifier key. The
+read syntax for meta characters uses *\M-*.
+
+#+begin_src
+?\M-A                                   ; M-A
+?\M-\C-b                                ; C-M-b
+?\C-\M-b                                ; C-M-b
+#+end_src
+
+* Other Character Modifier Bits
+
+The case of a graphic character is indicated by its character code; for
+example, ASCII distinguishes between the characters 'a' and 'A'. But
+ASCII has no way to represent whether a control character is upper case
+or lower case. Emacs uses the 25th bit (\(2^{25}\)) to indicate that the
+shift key was used in typing a control character. This distinction is
+possible only on a graphical display such as a GUI display on X; text
+terminals do not report the distinction. The X Window System defines
+three other modifier bits that can be set in a character: hyper, super
+and alt. The bit values are 22th (\(2^{22}\)) for alt, 23th \(2^{23}\)
+for super and 24th \(2^{24}\) for hyper.
+
+#+begin_src
+\S-                                     ; shift
+\H-                                     ; hyper
+\s-                                     ; super
+\A-                                     ; alt
+#+end_src
+
+

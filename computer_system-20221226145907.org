@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       47E1D183-16ED-404C-A9FC-E5A461E5DFC4
+:END:
+#+title: Computer System
+
+
+Computer system = hardware + [[id:9EAEE46D-79B4-4B78-A8D7-AD00DD643FF9][System Software]]
+
+
+Specific implementations of systems change over time, but the underlying concepts do not.
+All computer systems have similar hardware and software components that perform similar functions.
+
+
+Information are stored in [[id:EA7B4637-F1E9-4C61-A20B-8CC30B6E30E1][Bit]] in computer.
+
+
+Here's the typical system.
+[[file:~/note/org-roam/images/hardware-organization.png]]
+
+
+
+[[id:3FAD7E3A-B4B5-40BB-A2A0-D8C317493EDC][Cache]]
+[[id:2EE31FBD-EC76-497F-A217-4C58007838D4][Memory]]
+[[id:A5FE5F1C-3630-47C5-A082-88054730D18F][IO Bus]]
+[[id:4AD67FCA-7F20-4D3A-B6CD-3468B54792D0][USB Controller]]
+[[id:68A5D886-E162-47FC-9CD8-4A5A1443E7DF][Graphic Adapter]]
+[[id:BA1ADFF8-5E16-4D2F-BBBB-DB6BFDCBC76C][Disk Controller]]
+[[id:5A5DACE2-7E4F-412E-AA65-09A56EF61C4E][IO Bridge]]
+
+

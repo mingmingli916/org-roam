@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       8D136245-C668-41B0-9B02-EC0FC96526BA
+:END:
+#+title: MLP
+
+MultiLayer Perceptron
+
+[[id:23F20771-6FE3-4C3B-8E60-85EC5B4E8905][Linear Regression]]
+[[id:04888BCB-0583-4B3B-9C5A-8FD3CD9A22D1][Softmax Regression]]
+
+A fully connected neural network (also called MLP) consists of a series of fully connected
+layers that connect every neuron in one layer to every neuron in the
+other layer. Full connected neural network layers use matrix
+multiplication by a matrix of parameters with a separate parameter
+describing the interaction between each input unit and each output unit.
+This means that every output unit interacts with every input unit.
+
+The following figure the full connects neural network.
+
+#+Caption: Full connected neural network
+[[file:images/fc.png]]

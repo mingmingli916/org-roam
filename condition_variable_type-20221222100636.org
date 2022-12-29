@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5D5F02E3-40E1-49B8-B526-35CC20B5A469
+:END:
+#+title: Condition Variable Type
+
+A *condition variable* is a device for a more complex thread
+synchronization than the one supported by a mutex. A thread can wait on
+a condition variable, to be woken up when some other thread notifies the
+condition.
+
+Condition variable objects have no read syntax. They print in hash
+notation, giving the name of the condition variable (if it has been
+given a name) or its address in core:
+
+#+begin_example
+(make-condition-variable (make-mutex))  ; #<condvar 0x7fdcdfd33980>
+#+end_example
+
+

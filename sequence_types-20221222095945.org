@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       0B0B44CB-FE57-471A-AC0E-FD69B67525EB
+:END:
+#+title: Sequence Types
+
+
+
+A *sequence* is a Lisp object that represents an ordered set of
+elements. There are two kinds of sequence in Emacs Lisp: [[id:AC5D120C-7EE7-4F90-9782-6B48ECCCBEB3][List Types]] and [[id:59D49734-498A-4282-9814-AC22B1D5A2EB][Array Type]].
+
+
+
+It is generally impossible to read the same sequence twice, since
+sequences are always created a new upon reading. If you read the read
+syntax for a sequence twice, you get two sequences with equal contents.
+There is one exception: the empty list () always stands for the same
+object, =nil=.
+
+

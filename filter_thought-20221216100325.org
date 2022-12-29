@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       D846B5D0-5D01-40E7-8CB5-39207F623214
+:END:
+#+title: Filter Thought
+You can use filter to filter out some information or to add some operations.
+[[id:E9CBADED-A24D-43A0-AAB6-6EFFD3AFD805][Activation]]

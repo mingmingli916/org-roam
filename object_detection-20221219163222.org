@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       CAB423E8-C1AE-4776-8F38-ACCD7FEDA0E2
+:END:
+#+title: Object Detection
+
+[[id:5B528373-68C5-4F53-943D-9C178ECBA385][SSD]]
+[[id:7777ECE9-8A90-42C4-B480-99C001DF0EC6][YOLO]]
+[[id:BB705300-BB87-42EA-A774-EC8E235E6BAC][Faster R-CNN]]
+[[id:571DBEFF-5BF6-4517-A8DA-2EA6D0C58044][Mask R-CNN]]
+
+
+It consists of two parts:
+- object classification
+- object location
+
+
+Object classification is similar to [[id:13ECC0CF-EC58-43F7-B285-A35596DAA488][Image Classification]].
+
+Object location is normally achieved with [[id:9B7200B8-6161-4190-ABC7-4A68FE869575][Anchor Box]]es and [[id:23F20771-6FE3-4C3B-8E60-85EC5B4E8905][Linear Regression]].
+The linear regression in computed on anchor boxes which base on feature map.

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       D15B6021-83F0-438F-BADD-4CEB3D4B63DF
+:END:
+#+title: Org Mode
+
+[[id:EC6CA2DE-E090-45BD-B987-340885CD5E38][Org Structure]]
+[[id:B015832E-390D-4C42-AAFA-162204417111][Org List]]
+[[id:155D1212-1860-4655-B26F-ED6AF5276176][Org Table]]
+
+
+[[id:1CA9CDDB-54FC-4D18-BAD6-FFA09945405F][Org-roam]]
+
+Org is a mode for keeping notes, maintaining TODO lists, and project
+planning with a fast and effective plain-text markup language. It also
+is an authoring system with unique support for literate programming and
+reproducible research.
+
+Org is implemented on top of Outline mode.
+
+Files with the '.org' extension use Org mode by default.
+
+

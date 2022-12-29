@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       D5F7B39B-0E79-452F-AD65-630F6F687982
+:END:
+#+title: Byte-Code Function Type
+
+Byte-code function objects* are produced by byte-compiling Lisp code.
+Internally, a byte-code function object is much like a vector; however,
+the evaluator handles this data type specially when it appears in a
+function call. The printed representation and read syntax for a
+byte-code function object is like that for a vector, with an additional
+=#= before the opening =[= (i.e. start with =#[=).
+
+

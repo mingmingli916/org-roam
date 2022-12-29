@@ -1,0 +1,225 @@
+:PROPERTIES:
+:ID:       1DF8774A-1C12-4135-A3D8-0BF1531C84D0
+:END:
+#+title: Vocabulary
+
+* Word [19/21]
+
+** DONE archive
+CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:21]
+:END:
+
+[2022-12-07 Wed]
+arch操作系统+ive，arch操作系统需要看文档（存档）
+** DONE slip
+CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:21]
+:END:
+[2022-12-13 Tue 22:21]
+滑倒，打滑。
+
+s蛇，lip嘴唇，看到蛇的嘴唇我吓的滑倒了。
+** DONE sociologist
+CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:21]
+:END:
+[2022-12-13 Tue 22:21]
+social社会的，
+soci社会前缀，ologist专家，社会学家。
+** DONE tangential
+CLOSED: [2022-12-20 Tue 14:27] SCHEDULED: <2022-12-20 Tue>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-20 Tue 14:27]
+:END:
+[2022-12-13 Tue 22:21]
+正切的。
+
+** DONE ascribe
+CLOSED: [2022-12-19 Mon 16:22] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:22]
+:END:
+[2022-12-13 Tue 22:22]
+attribute something to (a cause)归因于
+
+subscribe订阅
+
+scribe写
+
+啊原来是这个原因，快写下来。归因于。
+
+** DONE fleet
+CLOSED: [2022-12-19 Mon 16:22] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:22]
+:END:
+[2022-12-13 Tue 22:21]
+舰队。
+
+l常常的，feet脚，常常的一排脚漂浮在海上，舰队。
+
+
+
+** DONE authentically
+CLOSED: [2022-12-19 Mon 16:22] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:22]
+:END:
+[2022-12-14 Wed 10:23]
+真实地
+
+
+authentic 真正的
+
+authent和验证有关的，
+au，欧，then，然后，t真的；ou然后是真的。
+
+** DONE persuasive [per swe siv]
+CLOSED: [2022-12-19 Mon 16:23] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:23]
+:END:
+[2022-12-14 Wed 10:53]
+有说服力的
+
+persuade说服
+
+person, pers, u a sive,个人，你是
+
+
+** DONE skeptical
+CLOSED: [2022-12-19 Mon 16:23] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:23]
+:END:
+[2022-12-14 Wed 10:56]
+怀疑的
+
+
+
+** DONE asset
+CLOSED: [2022-12-19 Mon 16:23] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:23]
+:END:
+[2022-12-18 Sun 21:44]
+as set作为集合：资产；
+
+** DONE budget
+CLOSED: [2022-12-19 Mon 16:23] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:23]
+:END:
+[2022-12-18 Sun 21:46]
+bud,get,花蕾，得到，花蕾的时候就得到，想到，提前算：预算
+
+** DONE diverse
+CLOSED: [2022-12-19 Mon 16:23] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:23]
+:END:
+[2022-12-18 Sun 21:48]
+di多样的前缀，verse，分化：多样化，多样的
+
+** DONE freight [freit]
+CLOSED: [2022-12-20 Tue 14:28] SCHEDULED: <2022-12-20 Tue>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-20 Tue 14:28]
+:END:
+[2022-12-18 Sun 21:58]
+货物，货运
+fr，富饶，eight，八，富饶吧：货运
+
+** DONE haul [hol]
+CLOSED: [2022-12-19 Mon 16:24] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:24]
+:END:
+[2022-12-18 Sun 22:08]
+运输，托运
+hole,洞，虫洞，用虫洞运输。
+
+** DONE cargo
+CLOSED: [2022-12-19 Mon 16:24] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:24]
+:END:
+[2022-12-18 Sun 22:09]
+货物
+car,go
+
+** DONE entrepreneurial [ang tr@ pr@ n@ ril]
+CLOSED: [2022-12-19 Mon 16:24] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:24]
+:END:
+[2022-12-18 Sun 22:09]
+创业，企业
+
+entrepreneur企业家
+
+Other governments are beginning to listen to more entrepreneurial employees.
+其他国家的政府也开始听取更多创业人士的想法。
+
+** DONE advocate
+CLOSED: [2022-12-19 Mon 16:24] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:24]
+:END:
+[2022-12-18 Sun 22:13]
+提倡，建议，宣扬
+
+Advocate and educate on the value of data-driven decision making; focus on the “how and why” of solutioning.
+
+
+** DONE acumen [a ku men]
+CLOSED: [2022-12-21 Wed 01:05] SCHEDULED: <2022-12-20 Tue>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-21 Wed 01:05]
+:END:
+[2022-12-18 Sun 22:29]
+the ability to make good judgments and quick decisions, typically in a particular domain
+敏锐
+
+** DONE commerce
+CLOSED: [2022-12-19 Mon 16:24] SCHEDULED: <2022-12-19 Mon>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-19 Mon 16:24]
+:END:
+[2022-12-18 Sun 22:30]
+商业
+commercial
+
+** TODO ergonomic [@: g@ no mic]
+SCHEDULED: <2022-12-29 Thu>
+人体工学的
+
+** TODO contoured
+SCHEDULED: <2022-12-29 Thu>
+contour 轮廓，等高线
+
+** sculpt [skalpt]
+SCHEDULED: <2022-12-29 Thu>
+雕刻
+
+** imitate
+SCHEDULED: <2022-12-29 Thu>
+模仿
+
+** striking
+SCHEDULED: <2022-12-29 Thu>
+醒目的，鲜明的
+strike， 罢工
+
+
+** transition
+过渡
+trans是前缀
+
+** distinctive
+独特的
+dis,tinct,ive

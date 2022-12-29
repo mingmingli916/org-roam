@@ -1,0 +1,78 @@
+:PROPERTIES:
+:ID:       FB027043-6BEF-4216-A534-7ED6894BE5C2
+:END:
+#+title: PhD
+
+[[id:D857F945-9ABD-4776-A4D2-EF0DA173AF53][IELTS]]
+
+Use [[id:81FB567F-E7EF-4D1C-A2E7-22B28F45CA39][Divide Thought]] to implement this hard task.
+
+* Professeur
+**  Brahim Chaib-draa
+
+ https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/brahim-chaib-draa-166 
+
+** CANCELED [#A] Audrey Durand
+CLOSED: [2022-12-19 Mon 19:30]
+:LOGBOOK:
+- State "CANCELED"   from              [2022-12-19 Mon 19:30] \\
+  Not very matched, she focuses on health.
+:END:
+
+ https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/audrey-durand-869 
+
+** François Pomerleau
+ https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/francois-pomerleau-549
+
+** TODO [#A] Jean-François Lalonde
+
+knows Christian Gagné
+
+
+Spatially Varying Bidirectional Reflectance Distribution Function (SVBRDF)
+
+*** description
+We are looking for students interested in working on problems at the intersection of computer vision, computer graphics, and machine learning.
+Topics of interest include lighting estimation, BRDF capture and estimation, computer vision with wide-angle images, 3D point cloud analysis, image synthesis, etc.
+
+In particular, the following opportunities are available at the PhD level:
+1. large-scale 3D point cloud analysis and interpretation;
+2. deep SVBRDF estimation for 3D objects and scenes;
+
+*** Qualifications
+- [X] hold a Master's degree in computer science, computer engineering, or equivalent;
+- [X] have prior experience in computer vision, computer graphics, or machine learning;
+- [X] possess experience with deep learning frameworks (PyTorch preferably);
+- [ ] speak and write English (ou français bien sûr!) fluently;
+- [X] be motivated and interested in contributing to this exciting field!
+
+
+*** apply [2/4]
+- [X] CV
+- [X] transcripts (undergrad and master's)
+- [ ] short research statement (2 pages max, which should mention why you're interested in working in our group)
+- [ ] a list of 3 references to contact (and who will provide strong recommendations) to Jean-Francois Lalonde directly. [0/3]
+  - [ ] 于子叶
+  - [ ] 高彦杰
+  - [ ] 刘子强
+
+http://vision.gel.ulaval.ca/~jflalonde/
+
+** [#A] Christian Gagné
+
+
+https://iid.ulaval.ca/en/members/christian-gagne/
+
+knows Audrey Durand
+
+** [#A] Pascal Germain
+https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/pascal-germain-873
+  
+
+* 申请流程
+1. 联系导师
+2. 网申
+3. 等待回复
+4. 签证申请（我这里不需要）
+
+    

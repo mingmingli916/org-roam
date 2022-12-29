@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       F441ACAC-F98F-4768-BF24-F4F3CC9F16A2
+:END:
+#+title: Heap Sort
+[[id:F6F83F49-CBD6-49E3-9C90-04A7D10FBF20][Information Thought]]
+
+Heap sort use information (heap) to reduce the iteration times to find the maximum.

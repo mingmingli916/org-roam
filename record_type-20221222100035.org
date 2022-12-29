@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       5A712A59-CE03-4724-AAD6-94282ADBFC8E
+:END:
+#+title: Record Type
+
+A *record* is much like a =vector=. However, the first element is used
+to hold its type as returned by =type-of=. The purpose of records is to
+allow programmers to create objects with new types that are not built
+into Emacs.
+
+

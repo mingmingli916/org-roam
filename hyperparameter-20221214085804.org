@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       25EE7C90-F4D4-4CCD-8C8E-ECDD983DE3C8
+:END:
+#+title: Hyperparameter
+
+
+*Hyperparameters* are parameters used to control the algorithm's behavior but can or should not be learned by the learning algorithm.
+It can affect the [[id:4487C2B2-FB61-47B9-9315-DEC565AABA75][Capacity]] of the model.
+So if these parameter can be learned, it will always choose the parameters that makes the [[id:4487C2B2-FB61-47B9-9315-DEC565AABA75][Capacity]] largest.
+
+
+In practice, we usually split training data into two disjoint subsets: training set and validation set (generally, 8:2).
+The validation set is used to adjust the hyperparameters.
+
+

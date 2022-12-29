@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       08AEE402-59AC-41E0-99DA-E7D43247693E
+:END:
+#+title: Outline Mode
+
