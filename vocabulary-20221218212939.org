@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [26/26]
+* Word [29/29]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -247,14 +247,32 @@ CLOSED: [2022-12-29 Thu 10:15]
 独特的
 dis,tinct,ive
 
-** dune
+** DONE dune [du:n]
+CLOSED: [2022-12-30 Fri 07:24]
+:LOGBOOK:
+- State "DONE"       from              [2022-12-30 Fri 07:24]
+:END:
 沙丘
 sand dune 沙丘
 
-** grain
+** DONE grain [grein]
+CLOSED: [2022-12-30 Fri 07:25]
+:LOGBOOK:
+- State "DONE"       from              [2022-12-30 Fri 07:25]
+:END:
 谷物，粮食
 sand grain 沙粒
 
-** council
+g+rain
+
+** DONE council [kaun sl]
+CLOSED: [2022-12-30 Fri 07:26]
+:LOGBOOK:
+- State "DONE"       from              [2022-12-30 Fri 07:26]
+:END:
 理事会，委员会，议会
 
+
+
+
+* Number
