@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [19/21]
+* Word [26/26]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -194,32 +194,67 @@ CLOSED: [2022-12-19 Mon 16:24] SCHEDULED: <2022-12-19 Mon>
 商业
 commercial
 
-** TODO ergonomic [@: g@ no mic]
-SCHEDULED: <2022-12-29 Thu>
+** DONE ergonomic [@: g@ no mic]
+CLOSED: [2022-12-29 Thu 10:13] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-29 Thu 10:13]
+:END:
 人体工学的
 
-** TODO contoured
-SCHEDULED: <2022-12-29 Thu>
+** DONE contoured [kang tur]
+CLOSED: [2022-12-29 Thu 10:14] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-29 Thu 10:14]
+:END:
 contour 轮廓，等高线
 
-** sculpt [skalpt]
-SCHEDULED: <2022-12-29 Thu>
+** DONE sculpt [skalpt]
+CLOSED: [2022-12-29 Thu 10:14] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:14]
+:END:
 雕刻
 
-** imitate
-SCHEDULED: <2022-12-29 Thu>
+** DONE imitate
+CLOSED: [2022-12-29 Thu 10:14] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:14]
+:END:
 模仿
 
-** striking
-SCHEDULED: <2022-12-29 Thu>
+** DONE striking
+CLOSED: [2022-12-29 Thu 10:15] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:15]
+:END:
 醒目的，鲜明的
 strike， 罢工
 
 
-** transition
+** DONE transition
+CLOSED: [2022-12-29 Thu 10:15]
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:15]
+:END:
 过渡
 trans是前缀
 
-** distinctive
+** DONE distinctive
+CLOSED: [2022-12-29 Thu 10:15]
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:15]
+:END:
 独特的
 dis,tinct,ive
+
+** dune
+沙丘
+sand dune 沙丘
+
+** grain
+谷物，粮食
+sand grain 沙粒
+
+** council
+理事会，委员会，议会
+

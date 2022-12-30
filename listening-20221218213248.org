@@ -6,3 +6,6 @@
 [[id:CC7AC40E-E976-418E-92E8-3B1C19A3EFB4][Grammar]]
 [[id:97630592-5B1C-416A-ADEE-47BE13BDA26D][Pronunciation]]
 [[id:1DF8774A-1C12-4135-A3D8-0BF1531C84D0][Vocabulary]]
+
+Use [[id:F6F83F49-CBD6-49E3-9C90-04A7D10FBF20][Information Thought]] when you are listening.
+Not just the content, but also the context.

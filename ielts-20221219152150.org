@@ -20,14 +20,18 @@ https://ielts.idp.com/book/IELTS
 3. register new user
 4. pay
 
-* TODO Prepare for the Test [0/1]
-** TODO Listening [1/1]
-*** DONE Listing overview
+* TODO Prepare for the Test [1/1]
+** DONE Listening [1/1]
+CLOSED: [2022-12-29 Thu 10:57]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-29 Thu 10:57]
+:END:
+*** DONE Overview
 CLOSED: [2022-12-21 Wed 09:13]
 :LOGBOOK:
 - State "DONE"       from "DOING"      [2022-12-21 Wed 09:13]
 :END:
-**** Facts
+
 - 30 minutes for listening and answering
 - 10 minutes for transferring the answers
 - 4 sections
@@ -46,6 +50,7 @@ CLOSED: [2022-12-21 Wed 09:13]
      - with word limit
      - use words you have *heard*
   4. sentence completion
+     - words in the same form as you hear
   5. labeling a diagram or map
      - preview the diagram or map before listening
      - look at the labels and locate what needs labelling
@@ -75,11 +80,13 @@ CLOSED: [2022-12-21 Wed 09:13]
     - how
     - what
   - underline keywords
+  - synonyms
 - while listening
   - being ready to hear
     - different words with the same meaning
     - keyword
   - listening while reading
+  - signpost language
 - after listening
   - checking answers
     - followed the instructions
@@ -89,3 +96,111 @@ CLOSED: [2022-12-21 Wed 09:13]
 
 
     
+
+** Speaking
+*** Overview
+- one candidate and one examiner
+- 11-14 minutes long
+- recorded onto a recording device
+- 3 parts
+  - part 1
+    - introduction
+    - identity check
+    - question about familiar topic (work, study, family, where you live)
+    - 4 to 5 minutes. 
+  - part 2
+    - task card (a topic and some points to speak about)
+    - 1 minute to prepare (make notes)
+    - 1-2 minutes for speaking
+  - part 3
+    - abstract question related to the topic in part 2
+    - 4-5 minutes
+- assessment
+  - fluency and coherence
+    fluency means how well you can speak continuously without needing to stop, and coherence means how clearly you organise and join your ideas together when you speak.
+  - lexical resource
+    using a range of vocabulary to express your ideas clearly.
+  - grammatical range and accuracy
+    how well you can use English grammar.
+  - pronunciation
+
+*** Strategy
+
+**** like and dislike
+- like doing
+- dislike doing
+- enjoying doing
+- don't mind doing
+- love doing
+- hate doing
+- can't bear to do
+- can't stand to do
+**** extending 
+- Give the reasons why you like it
+- Give the reasons why you don't like it
+- Give your preference for something else
+**** task card
+- your favorite restaurant
+- favorite animal
+- a library that you have visited or know about
+- a magazine or newspaper article that you found interesting
+- a shop that you like
+- a city or a town you know well
+- an exciting experience
+
+  
+** Reading
+
+*** Overview
+- 3 section
+- 40 questions
+- 60 minutes
+- each have 600-900 words
+- general interest topics
+- from journals, books, magazines and newspapers
+- no extra transfer time
+- each section 13-14 questions
+- 10 types of questions
+  - multiple question
+  - short-answer question
+  - sentence completion
+  - notes, summary, table, flowchart completion
+  - labelling a diagram
+  - choosing heading for paragraphs or sections
+  - locating information
+  - identification of writer's viewer or information
+  - classification
+  - matching
+- assessment
+  - distinguish main ideas from supporting details
+  - identify key points for a summary
+  - find specific or detailed information
+  - distinguish between facts and opinions
+  - make inference
+
+*** strategy
+
+- skills
+  - skimming
+    - read quickly
+    - find the main idea
+    - do not read every word
+    - do not worry about unknown vocabulary
+  - scanning
+    - read quickly
+    - find specific words or information (name, places, dates)
+    - know what are you looking for
+  - identifying paragraphs
+    - vocabulary
+      - synonyms
+    - grammar
+      - active - passive
+  - identifying reference
+    - texts have logical structure
+    - reference is used for ideas that are repeated in the text
+    - writers use special reference words, e.g. this, it, them
+    - reference words can refer forward or backward
+    
+  
+  
+** Writing

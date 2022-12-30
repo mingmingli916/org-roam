@@ -3,3 +3,18 @@
 :END:
 #+title: PyTorch
 
+* Data Manipulation
+
+[[file:~/note/org-roam/code/data_manipulation.py]]
+
+* Automatic Differentiation
+
+[[file:~/note/org-roam/code/automatic_differentiation.py]]
+
+In practice, based on our designed model the system builds a computational graph, tracking which data combined through which operations to produce the output.
+Automatic differentiation enables the system to subsequently backpropagate gradients.
+Here, backpropagate simply means to trace through the computational graph, filling in the partial derivatives with respect to each parameter.
+
+
+* Probability
+

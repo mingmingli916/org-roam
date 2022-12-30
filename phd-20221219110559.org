@@ -51,10 +51,10 @@ In particular, the following opportunities are available at the PhD level:
 - [X] CV
 - [X] transcripts (undergrad and master's)
 - [ ] short research statement (2 pages max, which should mention why you're interested in working in our group)
-- [ ] a list of 3 references to contact (and who will provide strong recommendations) to Jean-Francois Lalonde directly. [0/3]
+- [-] a list of 3 references to contact (and who will provide strong recommendations) to Jean-Francois Lalonde directly. [1/3]
   - [ ] 于子叶
   - [ ] 高彦杰
-  - [ ] 刘子强
+  - [X] 刘子强
 
 http://vision.gel.ulaval.ca/~jflalonde/
 

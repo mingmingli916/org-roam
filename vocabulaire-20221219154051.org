@@ -6,18 +6,27 @@
 * word
 
 
-** épisode
-SCHEDULED: <2022-12-29 Thu>
+** DONE épisode
+CLOSED: [2022-12-29 Thu 10:10] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:10]
+:END:
 
-** connaître
-SCHEDULED: <2022-12-29 Thu>
+** DONE connaître
+CLOSED: [2022-12-29 Thu 10:12] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:12]
+:END:
 知道，认识
 
 https://www.frdic.com/dicts/fr/connaître
 
 
-** encercler
-SCHEDULED: <2022-12-29 Thu>
+** DONE encercler
+CLOSED: [2022-12-29 Thu 10:12] SCHEDULED: <2022-12-29 Thu>
+:LOGBOOK:
+- State "DONE"       from              [2022-12-29 Thu 10:12]
+:END:
 画圈
 
 

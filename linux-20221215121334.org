@@ -14,3 +14,6 @@ Linux is often as the base operating system of big data components like
 [[id:CC0B56EF-2316-4E73-8264-3D6FF6CA9DAB][Command]]
 
 Linux is usually written in [[id:89270883-ED8A-45FC-B640-D4C3211F8596][C]].
+
+
+[[id:63E4ABF5-2764-49FD-8282-BFEF592F12E8][Shell]]

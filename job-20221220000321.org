@@ -6,13 +6,3 @@
 [[id:F1A5DE22-91C7-4872-9F08-4BB3F084C590][Machine Learning]]
 
 
-* TODO [#A] Job Application
-SCHEDULED: <2022-12-22 Thu ++1d>
-:PROPERTIES:
-:LAST_REPEAT: [2022-12-21 Wed 01:06]
-:END:
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2022-12-21 Wed 01:06] \\
-  Granify
-  routeique
-:END:
