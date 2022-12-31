@@ -162,6 +162,17 @@ CLOSED: [2022-12-21 Wed 09:13]
 - each section 13-14 questions
 - 10 types of questions
   - multiple question
+    - global multiple question (for main idea)
+      - underline keyword
+      - eliminate some options or guess if you can 
+      - skim text, look for main idea, cross out wrong option, choose correct option
+    - read the instructions and skim the text to see what it is about
+    - read question and underline keywords
+    - thinks of similar words
+    - look at the question again, skim and scan for keywords and synonyms
+    - mark the area which match the keywords
+    - write answer
+      
   - short-answer question
     - underline keywords
     - scan for keywords or synonyms
@@ -175,7 +186,18 @@ CLOSED: [2022-12-21 Wed 09:13]
   - notes, summary, table, flowchart completion
   - labelling a diagram
   - choosing heading for paragraphs or sections
+    - underline keywords
+    - cross out heading given as examples
+    - read first paragraph, underline keywords and topic sentence, sum up main idea
+    - choose best matching heading
   - locating information
+    - read the instructions and skim the text to see what it is about
+    - read question and underline keywords
+    - thinks of similar words
+    - look at the question again, skim and scan for keywords and synonyms
+    - mark the area which match the keywords
+    - write answer
+    
   - identification of writer's viewer or information
   - classification
   - matching

@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [30/36]
+* Word [36/36]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -281,25 +281,51 @@ CLOSED: [2022-12-30 Fri 21:57]
 反物质
 anti, matter
 
-** TODO avid [an vid]
+** DONE avid [an vid]
+CLOSED: [2022-12-31 Sat 07:57]
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2022-12-31 Sat 07:57]
+:END:
 狂热的
 I know if you are an avid typewriter collector, like actor Tom Hanks, then you would probably put it through it’s paces.
-** TODO clumsy [klam zi]
+** DONE clumsy [klam zi]
+CLOSED: [2022-12-31 Sat 07:58]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-31 Sat 07:58]
+:END:
 笨拙的
 Otherwise you may think it’s one of the most clumsy devices you have ever used.
-** TODO palatable [pan l@ d@ bl]
+** DONE palatable [pan l@ d@ bl]
+CLOSED: [2022-12-31 Sat 07:59]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-31 Sat 07:59]
+:END:
 可口的
 The technology of the modern keyboard (eg mechanical switches), just makes this character layout more palatable for the modern user.
-** TODO fatigue [f@ 'tig]
+
+patate法语中的土豆
+** DONE fatigue [f@ 'tig]
+CLOSED: [2022-12-31 Sat 08:00]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-31 Sat 08:00]
+:END:
 疲劳的
-** TODO deliberate [di 'li b@ reit]
+** DONE deliberate [di 'li b@ reit]
+CLOSED: [2022-12-31 Sat 08:01]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-31 Sat 08:01]
+:END:
 故意的
 To me it looks like a deliberate corruption of the layout.
-** TODO slate
+** DONE slate
+CLOSED: [2022-12-31 Sat 08:01]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-12-31 Sat 08:01]
+:END:
 石板，页岩
 a clean slate
-
-
+** infant [in 'f@nt]
+婴儿
 * Number
 |-----------+--------------|
 |    Number | English      |

@@ -3,3 +3,12 @@
 :END:
 #+title: ZMK
 
+https://zmk.dev/docs
+
+
+
+ZMK (Zephy MIT Keybaord) Firmware is an open source (MIT) keyboard firmware built on the [[https://zephyrproject.org/][Zephyr Project]] Real Time Operating System (RTOS).
+ZMK's goal is to provide a modern, wireless, and powerful firmware free of licensing issues.
+
+
+
