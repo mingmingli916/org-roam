@@ -163,7 +163,15 @@ CLOSED: [2022-12-21 Wed 09:13]
 - 10 types of questions
   - multiple question
   - short-answer question
+    - underline keywords
+    - scan for keywords or synonyms
+    - read the text and questions carefully to find the answer
   - sentence completion
+    - locate the gap
+    - find keywords around the gap
+    - scan for keywords or synonyms, make the text
+    - read the gap and text carefully to find the answer
+    - check the completed sentence is grammatically correct and make sense
   - notes, summary, table, flowchart completion
   - labelling a diagram
   - choosing heading for paragraphs or sections
@@ -200,7 +208,7 @@ CLOSED: [2022-12-21 Wed 09:13]
     - reference is used for ideas that are repeated in the text
     - writers use special reference words, e.g. this, it, them
     - reference words can refer forward or backward
-    
+
   
   
 ** Writing

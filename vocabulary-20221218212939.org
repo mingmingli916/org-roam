@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [29/29]
+* Word [30/36]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -273,6 +273,81 @@ CLOSED: [2022-12-30 Fri 07:26]
 理事会，委员会，议会
 
 
+** DONE antimatter
+CLOSED: [2022-12-30 Fri 21:57]
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2022-12-30 Fri 21:57]
+:END:
+反物质
+anti, matter
+
+** TODO avid [an vid]
+狂热的
+I know if you are an avid typewriter collector, like actor Tom Hanks, then you would probably put it through it’s paces.
+** TODO clumsy [klam zi]
+笨拙的
+Otherwise you may think it’s one of the most clumsy devices you have ever used.
+** TODO palatable [pan l@ d@ bl]
+可口的
+The technology of the modern keyboard (eg mechanical switches), just makes this character layout more palatable for the modern user.
+** TODO fatigue [f@ 'tig]
+疲劳的
+** TODO deliberate [di 'li b@ reit]
+故意的
+To me it looks like a deliberate corruption of the layout.
+** TODO slate
+石板，页岩
+a clean slate
 
 
 * Number
+|-----------+--------------|
+|    Number | English      |
+|-----------+--------------|
+|         0 | zero         |
+|         1 | one          |
+|         2 | two          |
+|         3 | three        |
+|         4 | four         |
+|         5 | five         |
+|         6 | six          |
+|         7 | seven        |
+|         8 | eight        |
+|         9 | nine         |
+|        10 | ten          |
+|        11 | eleven       |
+|        12 | twelve       |
+|        13 | thirteen     |
+|        14 | fourteen     |
+|        15 | fifteen      |
+|        16 | sixteen      |
+|        17 | seventeen    |
+|        18 | eighteen     |
+|        19 | nineteen     |
+|        20 | twenty       |
+|        30 | thirty       |
+|        40 | forty        |
+|        50 | fifty        |
+|        60 | sixty        |
+|        70 | seventy      |
+|        80 | eighty       |
+|        90 | ninety       |
+|       100 | one hundred  |
+|     1,000 | one thousand |
+| 1,000,000 | one million  |
+|-----------+--------------|
+
+* Month
+- January，斩，斩开混沌，一月
+- February，副，二
+- March，三月里的小雨淅淅沥沥下个不停，妈的，迟了
+- April，A像4
+- May，没，无，5
+- June，朱，红，六六大顺
+- July，红来了，6之后是7
+- August，Au，金，8，发财了
+- September，sep分割，我产生的那个月分割了世界，从此世界分为不存在我和存在过我的世界
+- October，O，圆，完美，10
+- November，no vember，光棍，11
+- December，嘀，闹钟响了，12
+  

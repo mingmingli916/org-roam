@@ -66,3 +66,31 @@ Je n'ai pas d'enfants.
 
 
 
+
+
+
+* Mes infos personnelles
+
+| Question                            | Répondre                                |
+|-------------------------------------+-----------------------------------------|
+| Quel est votre nom de faimlle?      | Li                                      |
+| Votre prénom?                       | Mingming                                |
+| C'est quoi votre code postal?       | G1V 2J4                                 |
+| Et votre numéro de téléphone?       | 418 262 9296                            |
+| Quelle est votre adresse?           | 2600 Rue de la Vendée, appartement. 301 |
+| Quelle est votre date de naissance? | 16 septembre 1987                       |
+| D'où venez-vous?                    | Je viens de la Chine.                   |
+| Quel âge avez-vous?                 | J'ai 35 ans.                            |
+| Quelle est votre adresse courriel?  | mingmignli916@gmail.com                 |
+|                                     |                                         |
+
+
+
+* phrases utiles en français
+- Pouvez-vous répéter s'il vous plait?
+- Lentement, SVP.
+- Excusez-moi. Je ne comprends pas.
+
+
+
+
