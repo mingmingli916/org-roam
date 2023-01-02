@@ -172,7 +172,6 @@ CLOSED: [2022-12-21 Wed 09:13]
     - look at the question again, skim and scan for keywords and synonyms
     - mark the area which match the keywords
     - write answer
-      
   - short-answer question
     - underline keywords
     - scan for keywords or synonyms
@@ -184,7 +183,12 @@ CLOSED: [2022-12-21 Wed 09:13]
     - read the gap and text carefully to find the answer
     - check the completed sentence is grammatically correct and make sense
   - notes, summary, table, flowchart completion
+    - read the summary to find out what it is about and what it covers
+    - underline keywords
+    - skim and scan to find answer
   - labelling a diagram
+    - look at the diagram, pay attention to the shape and location.
+    - skim to find the section, scan this part to find answer
   - choosing heading for paragraphs or sections
     - underline keywords
     - cross out heading given as examples
@@ -197,8 +201,10 @@ CLOSED: [2022-12-21 Wed 09:13]
     - look at the question again, skim and scan for keywords and synonyms
     - mark the area which match the keywords
     - write answer
-    
   - identification of writer's viewer or information
+    - keywords
+    - skim and scan
+    - writer's opinion, not your's
   - classification
   - matching
 - assessment
@@ -231,6 +237,11 @@ CLOSED: [2022-12-21 Wed 09:13]
     - writers use special reference words, e.g. this, it, them
     - reference words can refer forward or backward
 
-  
+- total strategy
+  - keyword
+  - skim
+  - scan
+  - read carefully
+    
   
 ** Writing

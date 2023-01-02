@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [36/36]
+* Word [37/37]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -324,8 +324,21 @@ CLOSED: [2022-12-31 Sat 08:01]
 :END:
 石板，页岩
 a clean slate
-** infant [in 'f@nt]
+** DONE infant [in 'f@nt]
+CLOSED: [2023-01-01 Sun 07:58]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-01 Sun 07:58]
+:END:
 婴儿
+** infancy [in'f@ si]
+婴儿期
+** latency
+延迟
+** pledge [pledz]
+保证
+our pledge我们的保证
+** combo
+组合，连击
 * Number
 |-----------+--------------|
 |    Number | English      |

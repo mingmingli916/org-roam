@@ -104,3 +104,7 @@ Click the “Updated keymap” link to load the build page and then click “fir
 9. Once both sides have been updated you are ready to go. DO NOT ATTEMPT TO RUN DIFFERENT VERSIONS OF FIRMWARE ON THE MODULES.
 
 Note: The Shortcuts Mod + Hotkey 1 (Left side) and Mod + Hotkey 3 (Right side) can also be used to place the respective modules into bootloader mode if you prefer.
+
+
+
+I used [[id:5677FD0C-DFF1-4A68-A79F-62A999A25525][Colemak DH]] in my Kinesis Advantage360 Pro keyboard.

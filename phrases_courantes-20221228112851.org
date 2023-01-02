@@ -71,7 +71,7 @@ Je n'ai pas d'enfants.
 
 * Mes infos personnelles
 
-| Question                            | Répondre                                |
+| Question                            |                                         |
 |-------------------------------------+-----------------------------------------|
 | Quel est votre nom de faimlle?      | Li                                      |
 | Votre prénom?                       | Mingming                                |
