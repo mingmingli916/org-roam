@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       CCCF0F1F-09F5-4587-9B74-3A52294F2F88
+:END:
+#+title: DevOps
+
+DevOps is a combination of the terms development and operations, meant to represent a collaborative or shared approach to tasks performed by a company's application development and IT operations teams.
+It is a philosophy that promotes better communication and collaboration between these teams.

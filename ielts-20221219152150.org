@@ -245,3 +245,22 @@ CLOSED: [2022-12-21 Wed 09:13]
     
   
 ** Writing
+
+*** Overview
+- 60 minutes
+- 2 tasks
+- task 1
+  - 20 minutes
+  - >150 words
+  - given information in visual form
+- task 2
+  - 40 minutes
+  - >250 words
+  - given a point of view, an issue or a problem
+
+
+
+assessment
+- cohesion and coherence
+- lexical resource
+- grammatical rang and accuracy

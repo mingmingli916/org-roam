@@ -3,4 +3,32 @@
 :END:
 #+title: CICD
 
-* TODO CI/CD
+CI and CD stand for _continuous integration_ and _continuous delivery/deployment_.
+In the software world, the CI/CD pipeline refers to the automation that enables incremental code changes from developers' desktops to be delivered quickly and reliably to production.
+
+* Why is CI/CD important?
+CI/CD allows organizations to ship software _quickly_ and efficiently.
+CI/CD facilitates an effective process for getting products to market _faster_ than ever before, continuously delivering code into production, and ensuring an ongoing flow of new features and bug fixes via the most efficient delivery method. 
+
+
+* What is the difference between CI and CD?
+[[file:~/note/org-roam/images/cicd.svg]]
+
+In short, CI is a set of practices performed as developers are writing code, and CD is a set of practices performed after the code is completed.
+
+CI:
+- small changes to the code
+- build
+- test
+- package
+
+CD:
+- testing
+- release
+- deploy
+- operate
+- monitor
+
+
+
+CICD is related to [[id:9842A77B-930B-452B-A13F-EACA845F4D5A][Agile]] and [[id:CCCF0F1F-09F5-4587-9B74-3A52294F2F88][DevOps]].
