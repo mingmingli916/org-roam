@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [37/37]
+* Word [41/41]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -330,14 +330,27 @@ CLOSED: [2023-01-01 Sun 07:58]
 - State "DONE"       from              [2023-01-01 Sun 07:58]
 :END:
 婴儿
-** infancy [in'f@ si]
+** DONE infancy [in'f@ si]
+CLOSED: [2023-01-03 Tue 09:18]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-03 Tue 09:18]
+:END:
 婴儿期
-** latency
+** DONE latency
+CLOSED: [2023-01-03 Tue 09:19]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-03 Tue 09:19]
+:END:
 延迟
-** pledge [pledz]
+** DONE pledge [pledz]
+CLOSED: [2023-01-03 Tue 09:19]
 保证
 our pledge我们的保证
-** combo
+** DONE combo
+CLOSED: [2023-01-03 Tue 09:19]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-03 Tue 09:19]
+:END:
 组合，连击
 * Number
 |-----------+--------------|

@@ -4,6 +4,8 @@
 #+title: Layout
 
 [[id:5677FD0C-DFF1-4A68-A79F-62A999A25525][Colemak DH]]
+[[id:DB8EB6CA-A786-44B3-BC69-AEDD38CD6696][Colemak]]
+
 
 There are best keyboard layouts.
 For example, if there is one layout that is perfect for C programmer, then it may not suitable for text writers.
