@@ -352,6 +352,80 @@ CLOSED: [2023-01-03 Tue 09:19]
 - State "DONE"       from              [2023-01-03 Tue 09:19]
 :END:
 组合，连击
+** intermittent
+间歇性
+intermittent user间歇性使用者
+** convey
+传达
+conveys and understands only general meaning in very familiar situations.
+** competence
+能力，权限
+basic competence is limited to familiar situations.
+** modest
+适度
+温和
+谦虚
+有限
+modest user
+** command
+命令，掌控，指挥
+has partial command of the language
+** presume
+pre sume
+猜测，假设
+I presume you have guide walks?
+** tide
+潮汐，浪潮
+at low tide
+** habitat
+栖息地，居住地
+It's got a rang of habitats.
+** seal
+印章，图章,海豹, 密封
+fur seal 海狗
+** waterproof
+防水的
+** ambitious
+有雄心的
+** spoon
+勺
+** exterior
+外观, 表面
+** ham
+** cheddar
+** tuna
+金枪鱼
+** crisp
+酥脆, 一种零食
+** sack
+袋子
+** shipwreck
+
+沉船, 海难
+** cliff
+悬崖峭壁
+** polish
+波兰，波兰语，打磨，擦亮
+** brass
+黄酮
+brass lamps
+** eagle
+
+老鹰
+** inquisitive
+好奇的
+** predator
+捕食者
+** orca whale
+逆戟鲸
+** dolphin
+海豚
+** kayak
+皮
+* veterinary [ve t@ ri n@ ri]
+兽医
+veterinary science students
+
 * Number
 |-----------+--------------|
 |    Number | English      |

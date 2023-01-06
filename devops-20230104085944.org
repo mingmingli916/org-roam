@@ -5,3 +5,7 @@
 
 DevOps is a combination of the terms development and operations, meant to represent a collaborative or shared approach to tasks performed by a company's application development and IT operations teams.
 It is a philosophy that promotes better communication and collaboration between these teams.
+
+
+DevOps is related to [[id:1DF20871-8FD9-4413-B778-D1F8C0F97F67][CICD]] and [[id:9842A77B-930B-452B-A13F-EACA845F4D5A][Agile]].
+DevOps focuses on culture.

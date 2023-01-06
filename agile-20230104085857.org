@@ -3,3 +3,4 @@
 :END:
 #+title: Agile
 
+Agile focuses on the development process.

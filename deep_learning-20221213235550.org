@@ -13,3 +13,4 @@ Deep learning usually has the following types:
 [[id:D316E213-181F-4710-A9EB-92141E512F52][Segmentation]]
 [[id:55600595-0EE4-4F4E-8E2D-0A32CA45F891][Reinforcement Learning]]
 [[id:3CA70DCE-2288-4914-A0ED-09632ED6BF81][Generative Learning]]
+[[id:7791B1FA-08FC-44BD-8EE2-F017431F1A5B][Graph Learning]]
