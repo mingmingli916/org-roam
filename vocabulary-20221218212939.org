@@ -3,7 +3,7 @@
 :END:
 #+title: Vocabulary
 
-* Word [41/41]
+* Word [46/46]
 
 ** DONE archive
 CLOSED: [2022-12-19 Mon 16:21] SCHEDULED: <2022-12-19 Mon>
@@ -352,25 +352,46 @@ CLOSED: [2023-01-03 Tue 09:19]
 - State "DONE"       from              [2023-01-03 Tue 09:19]
 :END:
 组合，连击
-** intermittent
+** DONE intermittent
+CLOSED: [2023-01-07 Sat 09:16]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-07 Sat 09:16]
+:END:
 间歇性
+inter mi tent
 intermittent user间歇性使用者
-** convey
+** DONE convey
+CLOSED: [2023-01-07 Sat 09:19]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-07 Sat 09:19]
+:END:
 传达
 conveys and understands only general meaning in very familiar situations.
 ** competence
 能力，权限
 basic competence is limited to familiar situations.
-** modest
+** DONE modest
+CLOSED: [2023-01-07 Sat 09:20]
+:LOGBOOK:
+- State "DONE"       from "DOING"      [2023-01-07 Sat 09:20]
+:END:
 适度
 温和
 谦虚
 有限
 modest user
-** command
+** DONE command
+CLOSED: [2023-01-07 Sat 09:21]
+:LOGBOOK:
+- State "DONE"       from              [2023-01-07 Sat 09:21]
+:END:
 命令，掌控，指挥
 has partial command of the language
-** presume
+** DONE presume
+CLOSED: [2023-01-07 Sat 09:24]
+:LOGBOOK:
+- CLOSING NOTE [2023-01-07 Sat 09:24]
+:END:
 pre sume
 猜测，假设
 I presume you have guide walks?
@@ -421,10 +442,77 @@ brass lamps
 ** dolphin
 海豚
 ** kayak
-皮
-* veterinary [ve t@ ri n@ ri]
+皮艇
+** veterinary [ve t@ ri n@ ri]
 兽医
 veterinary science students
+** livestock
+家畜
+** vet
+兽医
+** breed
+品种;
+
+The farm was in a valley and they had a lowland breed called Suffolks.
+
+饲养
+So were they bred for their meat?
+** wool
+羊毛
+** electrolyte [i: 'lek tr@ lait]
+电解质, 电解液
+** shed
+棚
+milk shed
+** antibiotic
+抗生素
+** pour
+倾倒
+** reckon
+估计，认为
+But he reckons vet's skills are still needed.
+** contaminate
+污染
+** domesticate [d@ 'mestikeit]
+驯化
+domesticated
+家养的
+** eradicate [@ 'ran di keit]
+消除,根除
+eradicate those diseases
+** dissertation [di s@ 'tei shen]
+论文
+** labyrinth
+迷宫
+** maze
+迷宫
+** wind
+风，缠绕
+** spiral
+螺旋
+
+winding spiral path
+** intricate
+错综复杂
+** hedge
+树篱
+** meditation
+冥想
+** cosmology
+宇宙学
+** mosaic
+马赛克
+** villa
+别墅
+** tomb
+墓
+** turf
+草皮
+** fertility rite [f@ 'ti l@ ti]
+
+生育仪式
+** pamphlet [panm flit]
+小册子，手册
 
 * Number
 |-----------+--------------|

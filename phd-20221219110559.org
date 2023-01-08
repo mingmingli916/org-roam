@@ -37,7 +37,7 @@ Topics of interest include lighting estimation, BRDF capture and estimation, com
 
 In particular, the following opportunities are available at the PhD level:
 1. large-scale 3D point cloud analysis and interpretation;
-2. deep SVBRDF estimation for 3D objects and scenes;
+2. deep SVBRDF estimation for 3D objects and scenes; ([[id:2BF1B255-9486-4FD4-B4B9-33F068D4683D][SVBRDF]])
 
 *** Qualifications
 - [X] hold a Master's degree in computer science, computer engineering, or equivalent;
@@ -47,13 +47,13 @@ In particular, the following opportunities are available at the PhD level:
 - [X] be motivated and interested in contributing to this exciting field!
 
 
-*** apply [2/4]
+*** DOING [#A] apply [3/4]
 - [X] CV
 - [X] transcripts (undergrad and master's)
 - [ ] short research statement (2 pages max, which should mention why you're interested in working in our group)
-- [-] a list of 3 references to contact (and who will provide strong recommendations) to Jean-Francois Lalonde directly. [2/3]
+- [X] a list of 3 references to contact (and who will provide strong recommendations) to Jean-Francois Lalonde directly. [3/3]
   - [X] 于子叶
-  - [ ] 高彦杰
+  - [X] 高彦杰
   - [X] 刘子强
 
 http://vision.gel.ulaval.ca/~jflalonde/
