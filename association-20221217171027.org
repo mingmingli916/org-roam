@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       A2E06A06-DFB0-45DB-A4E1-CFE7D1CF1C7A
-:END:
-#+title: Association
-

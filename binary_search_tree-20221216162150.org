@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       F32E92E4-8267-4126-8CF6-09F78AB590E1
-:END:
-#+title: Binary Search Tree
-

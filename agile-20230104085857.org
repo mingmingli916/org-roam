@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       9842A77B-930B-452B-A13F-EACA845F4D5A
-:END:
-#+title: Agile
-
-Agile focuses on the development process.

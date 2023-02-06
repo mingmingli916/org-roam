@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       D81812C0-329C-4AC9-8E7A-047233CB12B2
-:END:
-#+title: GRU
-Gated Recurrent Unit

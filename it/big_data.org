@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       D601E384-D2B4-4410-BBC1-B70523155EED
+:END:
+#+title: big data
+
+* Hadoop
+
+* Spark
+
+* Hbase
+
+* Ambari
+
+* Kafka

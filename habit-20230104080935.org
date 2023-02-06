@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       78767295-3CB6-497B-8510-5FACC278A5CA
-:END:
-#+title: Habit
-

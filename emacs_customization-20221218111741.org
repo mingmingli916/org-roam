@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       B372552A-58C0-4F0F-AE3D-C9DF47FCCA99
-:END:
-#+title: Emacs Customization
-
-[[id:BCD1EADA-5FC4-406B-955B-EEFEFAF8AF81][Configuration Thgouth]] 
-
-[[id:6A9069FD-63FB-4FB1-828B-E6B7ED60E1AC][Elisp]]

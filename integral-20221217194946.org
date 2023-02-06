@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       E5813150-3DA5-45BB-869E-8B62601FF956
-:END:
-#+title: Integral
-

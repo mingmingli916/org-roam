@@ -12,7 +12,7 @@ Use [[id:81FB567F-E7EF-4D1C-A2E7-22B28F45CA39][Divide Thought]] to implement thi
 
  https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs-reguliers/fiche/brahim-chaib-draa-166 
 
-** CANCELED [#A] Audrey Durand
+** CANCELED Audrey Durand
 CLOSED: [2022-12-19 Mon 19:30]
 :LOGBOOK:
 - State "CANCELED"   from              [2022-12-19 Mon 19:30] \\
@@ -79,3 +79,7 @@ https://www.ift.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/pr
 
 
 [[id:39C68195-466A-4C2F-B413-64F797EE6C38][Review]]
+
+
+
+

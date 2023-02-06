@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       94F112D3-D29E-4357-A8A6-7B6DBBFCA196
-:END:
-#+title: Probability
-

@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       A7481CF3-F204-41D2-B975-755DD6041DBC
-:END:
-#+title: SVM
-
-Support Vector Machine

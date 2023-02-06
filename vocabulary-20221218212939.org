@@ -513,7 +513,48 @@ winding spiral path
 生育仪式
 ** pamphlet [panm flit]
 小册子，手册
-
+** astonish [@ 'sto nish]
+震惊, 惊奇
+** congest [k@n 'Zest]
+con gest
+拥挤
+** slum
+贫民窟
+** solicitor [s@ 'li si t@]
+lawyer
+** coincide [ko in 'said]
+巧合，重合
+** demolish
+de modish
+拆除
+demolish buildings
+** trench
+沟壕，挖掘
+** timber
+木材
+** condense
+凝结
+steam condenses
+** ventilation
+通风
+ventilation shaft
+** confine
+局限，范围
+** stadium
+体育场
+** urban
+城市（的）
+** medieval
+中世纪
+** cathedral
+大教堂
+** soar
+飙升
+** arena
+竞技场，领域
+** emblematic
+标志，经典
+Even today, architects and planners are finding new ways to adapt the mono-functional sports arenas which became emblematic of modernisation during the 20 century.
 * Number
 |-----------+--------------|
 |    Number | English      |

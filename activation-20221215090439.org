@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       E9CBADED-A24D-43A0-AAB6-6EFFD3AFD805
-:END:
-#+title: Activation
-

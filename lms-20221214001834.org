@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       12E67A0E-D27D-4555-BAC8-50DF588AC437
-:END:
-#+title: LMS
-
-Least Mean Square

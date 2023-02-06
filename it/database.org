@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1B4FAB78-CB7D-40CD-A8FB-D1A2F52CA15B
+:END:
+#+title: database
+* Design
+* SQL
+:PROPERTIES:
+:ID:       411AC897-35A8-4A56-AA72-B8529A3EE8C5
+:END:
+
+* Property
+
+** ACID
+
+*** Atomicity
+
+*** Consistency
+
+*** Isolation
+
+*** Durability

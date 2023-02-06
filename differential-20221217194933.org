@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       F665DF08-2510-4964-8FC2-7EF6043354DC
-:END:
-#+title: Differential
-

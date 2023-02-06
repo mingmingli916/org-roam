@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       52AC6A36-05A3-4E73-B342-3F3B92D413FE
-:END:
-#+title: Particle
-

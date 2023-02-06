@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       A65F0AA3-AEF6-428C-A2C9-D04EA72B1EA3
-:END:
-#+title: Windows
-

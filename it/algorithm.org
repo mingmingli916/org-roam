@@ -1,0 +1,110 @@
+:PROPERTIES:
+:ID:       CF325547-5BA7-40AD-A9AF-6E430D63F044
+:END:
+#+title: algorithm
+* Data structure
+** Array
+** Linked list
+** Tree
+** Trie
+** Queue
+** Stack
+** Hash table
+** B-tree
+** Graph
+** Red-black tree
+* Algorithm
+** Sorting
+*** Selection sort
+*** Insertion sort
+*** Bubble sort
+*** Quick sort
+*** Heap sort
+*** Bucket sort
+*** Counting sort
+*** Radix sort
+A problem we encounter with counting sort is that it can’t easily handle strings where the alphabet size could be unconstrained.
+Additionally, when the maximum value of the array is extraordinarily large, counting sort will lose its appeal since the additional memory overhead can cause things to slow down quite a bit.
+
+Radix sort is an extension of counting sort that handles these problems. It works well with collections of strings and collections of integers (especially when the maximum value is large).
+
+There are a couple of variations of radix sort, but let’s focus on Least Significant Digit (LSD) Radix Sort.
+
+Let’s use the example array 
+$$
+A = [256, 336, 736, 443, 831, 907]
+$$
+
+
+LSD Radix Sort
+The basic principle of LSD radix sort is to start with the rightmost, least significant, digit (in the case of strings, the rightmost character) of each integer and perform a counting sort on just that digit.
+Since counting sort is a stable sort, it will keep elements in their relative order in the case of ties.
+
+After the first step of sorting we get the following array (focus on the last digit here):
+
+[831, 443, 256, 336, 736, 907]
+
+We repeat the process on the second digit to get the following array:
+
+[907, 831, 336, 736, 443, 256]
+
+And finally, the last step involves the leftmost digit, which then gives us our sorted array:
+
+[256, 336, 443, 736, 831, 907]
+
+#+begin_src python
+  class Solution:
+    def counting_sort(self, lst: List[int], place_val: int, K: int = 10) -> None:
+        """
+        Sorts a list of integers where minimum value is 0 and maximum value is K
+        """
+        # intitialize count array of size K
+        counts = [0] * K
+
+        for elem in lst:
+            digit = (elem // place_val) % 10
+            counts[digit] += 1
+
+        # we now overwrite our original counts with the starting index
+        # of each digit over our group of digits
+        starting_index = 0
+        for i, count in enumerate(counts):
+            counts[i] = starting_index
+            starting_index += count
+
+        sorted_lst = [0] * len(lst)
+        for elem in lst:
+            digit = (elem // place_val) % 10
+            sorted_lst[counts[digit]] = elem
+            # since we have placed an item in index counts[digit],
+            # we need to increment counts[digit] index by 1 so the
+            # next duplicate digit is placed in appropriate index
+            counts[digit] += 1
+
+        # common practice to copy over sorted list into original lst
+        # it's fine to just return the sorted_lst at this point as well
+        for i in range(len(lst)):
+            lst[i] = sorted_lst[i]
+
+    def radix_sort(self, lst: List[int]) -> None:
+        # shift the minimum value in lst to be 0
+        shift = min(lst)
+        lst[:] = [num - shift for num in lst]
+        max_elem = max(lst)
+
+        # apply the radix sort algorithm
+        place_val = 1
+        while place_val <= max_elem:
+            self.counting_sort(lst, place_val)
+            place_val *= 10
+
+        # undo the original shift
+        lst[:] = [num + shift for num in lst]
+#+end_src
+** Divide and conquer
+** Binary search
+** Greedy algorithm
+** Dynamic programming
+** Recursion
+*** DFS
+*** BFS

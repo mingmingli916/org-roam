@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       16EEBF15-A320-4AA8-BD20-2BF3985851D5
-:END:
-#+title: Responsibility
-

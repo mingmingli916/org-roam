@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       9D3BE5AC-778D-41A7-B11D-F1B0CA603331
-:END:
-#+title: Dynamic Programming
-
-[[id:C24EC1A7-6FBA-4D83-8142-13BF24DE83C2][Recursion]]

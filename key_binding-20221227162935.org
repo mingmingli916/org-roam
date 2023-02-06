@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       7F96E391-4CB1-45FB-ABDD-6FE24538F84B
-:END:
-#+title: Key Binding
-
-In Emacs, commonly used commands are binded to key strokes.
-This key strokes invoke the corresponding command are called Key Binding.

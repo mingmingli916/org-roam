@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       2BF1B255-9486-4FD4-B4B9-33F068D4683D
-:END:
-#+title: SVBRDF
-
-SVBRDF: spatially-varying BRDF
-BRDF: bidirectional reflectance distribution function

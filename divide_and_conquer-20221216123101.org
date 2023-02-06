@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       A1B7F215-43B7-4B14-8735-8D3B584A7CC9
-:END:
-#+title: Divide and Conquer
-

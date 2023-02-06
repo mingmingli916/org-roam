@@ -1,0 +1,379 @@
+:PROPERTIES:
+:ID:       6478E74B-A9F5-4308-92FC-C1929FD0CD5B
+:END:
+#+title: machine learning
+
+
+A machine learning algorithm is an algorithm that is able to learn from data.
+
+But what do we mean by learning?
+Mitchell provides a succinct definition:
+``A computer program is said to learn from experience $E$ with respect to some class of tasks $T$ and performance measure $P$, if its performance at tasks in $T$, as measured by $P$, improves with experience $E$''
+
+How does the learn happen?
+The algorithm learns by adjusting the parameters contained in it.
+
+* Math
+
+** Linear algebra
+
+** Probability
+
+** Calculus
+* Theory
+
+** No free lunch
+
+
+For any algorithms \(a_{1}\) and \(a_{2}\), at iteration step \(m\)
+\begin{equation}
+  \label{eq:1}
+  \sum P(d_{m}^{y}|f,m,a_{1}) = \sum P(d_{m}^{y}|f,m,a_{2})
+\end{equation}
+where \(d_{m}^{y}\) denotes the ordered set of size \(m\) of the cost values \(y\) associated to input values \(x \in X\), \(f:X\longrightarrow Y\) is the function being optimized and \(P(d_{m}^{y}|f,m,a)\) is the conditional probability of obtaining a given sequence of cost values from algorithm \(a\) run \(m\) times on function \(f\).
+
+The no free lunch theorem implies that we must design our machine learning algorithms to perform well on a specific task but not a universal task.
+
+
+This theory will effect how we chose the model and how large the model capacity effect.
+
+** Manifold learning
+A manifold is an important concept in mathematics.
+In layman’s terms, you can think of it as a surface of any shape.
+
+You can get a visual impression with the images on google:
+https://www.google.com/search?tbm=isch&q=manifold+learning
+
+Manifold Learning convert high dimension features into low dimension features (with useful features only, dropping some unimportant features).
+We suppose there is a connected manifold space that is what we want to model to learn.
+For example, human face manifold space.
+
+** Capacity
+
+
+We can control whether a model is more likely to overfit or underfit by altering its *capacity*.
+The capacity is the pattern space (family of functions) we can learn from.
+
+*** Overfitting
+
+The error on training data is called _training error_.
+The error on test data is called _test error_.
+
+
+Overfitting occurs when the gap between the training error and test error is too large.
+
+Overfitting can be caused by high Capacity and Lack of Data.
+
+*** Underfitting
+
+Underfitting occurs when the model is not able to obtain a sufficient low error value on the training set.
+
+
+Underfitting can be caused by low Capacity.
+
+** Regularization
+
+We train model on training data but use test data (not used to train the model) to test out model.
+The ability to perform on test data is called *generalization*.
+We can use model on test data because we assume that the train data and the test has the same probability distribution (i.e. they have relationship).
+
+
+*Regularization* is any modification we make to a learnining algorithm that is intended to reduce its generalization error.
+
+
+Machine learning algorithm will generally perform best when their capacity is appropriate for the true complexity of the task and the amount of training data.
+
+*** Parameter norm penalties
+
+**** L1
+
+**** L2
+
+*** [[id:D9E736F7-39D9-42D6-A5CF-F3BFBE9E780B][Data augmentation]]
+
+*** Bagging
+
+*** Early stopping
+
+*** Dropout
+
+** Hyperparameter
+
+*Hyperparameters* are parameters used to control the algorithm's behavior but can or should not be learned by the learning algorithm.
+It can affect the Capacity of the model.
+So if these parameter can be learned, it will always choose the parameters that makes the Capacity largest.
+
+
+In practice, we usually split training data into two disjoint subsets: training set and validation set (generally, 8:2).
+The validation set is used to adjust the hyperparameters.
+
+** Optimization
+
+The goal of optimization is to use data to adjust the parameters in model.
+That is to say, the optimizing process is the process of learning.
+
+
+But what do we mean by learning?
+Mitchell provides a succinct definition:
+``A computer program is said to learn from experience $E$ with respect to some class of tasks $T$ and performance measure $P$, if its performance at tasks in $T$, as measured by $P$, improves with experience $E$''
+Now, how does the learn happen?
+
+Thought this process, the model improves its performance at tasks.
+
+
+*** SGD
+
+*** Momentum
+The method of momentum is designed to accelerate learning in SGD.
+The momentum algorithm accumulates an exponentially decaying moving average of past gradients and continues to move in their direction.
+
+
+\begin{equation}
+\boldsymbol{v} \leftarrow \alpha \boldsymbol{v}-\epsilon{} \boldsymbol{g}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{\theta} \leftarrow \boldsymbol{\theta}+\boldsymbol{v} .
+\end{equation}
+
+Where $g$ is the gradient, $\alpha \in [0,1)]$ determines how quickly the contributions of previous gradients exponentially decay.
+
+*** Nesterov momentum
+Nesterov Momentum is a variant of the Momentum algorithm.
+The difference between Nesterov momentum and standard momentum is where the gradient is evaluated.
+With Nesterov momentum the gradient is evaluated after the current velocity is applied. 
+
+
+\begin{equation}
+\boldsymbol{g} = \frac{1}{m^{'}}\nabla_{\boldsymbol{\theta}} \sum_{i=1}^{m^{'}} L(\boldsymbol{x},y,\boldsymbol{\theta} + \alpha \boldsymbol{v})
+\end{equation}
+
+*** AdaGrad
+
+AdaGrad is designed to converge rapidly when applied to a convex function.
+Comparing to SGD, AdaGrad algorithm individually adapts the learning rates of all model parameters by scaling them inversely proportional to the square root of the sum of all of their historical squared values.
+
+\begin{equation}
+\boldsymbol{\theta}=\boldsymbol{\theta} - \frac{\epsilon}{\sqrt{\delta \boldsymbol{I}+\operatorname{diag}\left(G \right)}} \odot \boldsymbol{g}
+\end{equation}
+
+where $\boldsymbol{\theta}$ is the parameter to be updated, $\epsilon$ is the initial learning rate, $\delta$ is some small quantity that used to avoid the division of zero, $\boldsymbol{I}$ is the identity matrix, $\boldsymbol{g}$ is the gradient estimate.
+
+\begin{equation}
+\boldsymbol{G} = \sum_{\tau = 1}^{t} \boldsymbol{g_{\tau} g_{\tau}^{T}}
+\end{equation}
+
+
+AdaGrad shrinks the learning rate according to the entire history of the squared gradient and may have made the learning rate too small before arriving at such a convex structure.
+
+*** RMSProp
+
+The RMSProp algorithm modifies AdaGrad to perform better in the non-convex setting by changing the gradient accumulation into an exponentially weighted moving average. 
+RMSProp uses an exponentially decaying average to discard history from the extreme past so that it can converge rapidly after finding a convex bowl.
+
+\begin{equation}
+\boldsymbol{r} \leftarrow \boldsymbol{r} + \boldsymbol{g} \odot \boldsymbol{g}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} - \frac{\epsilon}{\delta + \sqrt{\boldsymbol{r}}} \odot \boldsymbol{g}
+\end{equation}
+
+Where $\boldsymbol{g}$ is the gradient, $\boldsymbol{\theta}$ is the parameters in a model, $\boldsymbol{r}$ is initialized to $0$..
+
+*** Adam
+Adam stands for adaptive moments.
+Comparing to RMSProp, Adam adds Momentum to gradient.
+
+\begin{equation}
+\boldsymbol{r} \leftarrow \rho \boldsymbol{r}+(1-\rho) \boldsymbol{g} \odot \boldsymbol{g}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} - \frac{\epsilon}{\sqrt{\delta+\boldsymbol{r}}} \odot \boldsymbol{g}
+\end{equation}
+
+
+Where $\epsilon$ is the learning rate, $\rho$ is the decay rate, $\delta$ is a small constant, $\boldsymbol{r}$ is initialized to $0$.
+
+
+** Activation
+
+*** Softmax regression
+** Pooling
+A pooling function replaces the output of the net at a certain location with a summary statistic of the nearby outputs.
+For example, the max pooling oeration reports the maximum output within a rectangular neighborhood.
+Pooling helps to make the representation approximately invariant to small translations of the input.
+Invariant to translation means that if we translate the input by a small amount, the values of most of the pooled outputs do not change.
+
+#+CAPTION: Max Pooling
+[[file:images/max-pooling.png]]
+
+The following formula can be used to calculate the output dimension.
+\begin{gather}
+  h_{o} = \frac{h_{i} - h_{k}}{h_{s}} + 1\\
+  w_{o} = \frac{w_{i} - w_{k}}{w_{s}} + 1
+\end{gather}
+where \(h_{o}\) is the output height, \(h_{i}\) is the input height, \(h_{k}\) is the pooling height, \(h_{s}\) is the stride height, \(w_{o}\) is the output width, \(w_{i}\) is the input width, \(w_{k}\) is the pooling width, \(w_{s}\) is the stride width.
+
+
+
+** CNN
+
+CNN stands for convolutional neural network.
+Convolutional networks are neural networks that have convolutional layers.
+A typical convolutional layer consists of three stages:
+
+- Convolution
+- Activation
+- Pooling
+
+
+** Convolution
+Convolution is a math operation.
+\begin{equation}
+  \label{eq:convolution}
+  s(t) = \int x(a)w(t-a)da.
+\end{equation}
+
+This operation is called *convolution*.
+The convolution operation is typically denoted with an asterisk:
+\begin{equation}
+  s(t) = (x*w)(t).
+\end{equation}
+
+In convolutional network terminology, the first argument (in this example, the function $x$) to the convolution is often referred to as the _input_, and the second argument (int this example, the function $w$) as the _kernel_.
+The output is sometimes referred to as the _feature map_.
+
+If we assume that $x$ and $w$ are defined only on integer $t$, we can define the discrete convolution:
+\begin{equation}
+  \label{eq:discrete-convolution}
+  s(t) = (x*w)(t) = \sum_{a=-\infty}^{\infty} x(a)w(t-a).
+\end{equation}
+
+We often use convolutions over more than one axis at a time.
+For example, if we use a two-dimensinal image $I$ as our input, we probably also want to use a two-dimensional kernel $K$:
+\begin{equation}
+  S(i,j) = (I*K)(i,j) = \sum_m\sum_n I(m,n)K(i-m,j-n).
+\end{equation}
+
+
+The following formula can be used to calculate the output dimension.
+\begin{gather}
+  h_{o} = \frac{h_{i} - h_{k}}{h_{s}} + 1\\
+  w_{o} = \frac{w_{i} - w_{k}}{w_{s}} + 1
+\end{gather}
+where \(h_{o}\) is the output height, \(h_{i}\) is the input height, \(h_{k}\) is the kernel height, \(h_{s}\) is the stride height, \(w_{o}\) is the output width, \(w_{i}\) is the input width, \(w_{k}\) is the kernel width, \(w_{s}\) is the stride width.
+
+The convolution operation is shown in the following Figure:
+#+CAPTION: Convolution operation
+[[file:images/conv.png]]
+
+
+
+
+
+** Properties
+
+CNN leverages three important ideas:
+
+- sparse interaction.
+- parameter sharing.
+- equivariant representations.
+
+
+*** Sparse interaction
+
+This is accomplished by making the kernel smaller than the input.
+
+
+*** Parameter sharing
+
+In convolutional layers, the same parameter defined in one kernel are used at every position of the input.
+
+
+*** Equivariant representations
+
+In the case of convolution, the particular form of a parameter sharing causes the layer to have a property called _equivariance_ to translation.
+To say a function is equivariant means that if the input changes, the output changes in the same way.
+
+
+
+
+
+
+
+** RNN
+
+** Transposed convolution
+* Skills
+
+** [[id:411AC897-35A8-4A56-AA72-B8529A3EE8C5][SQL]]
+
+** Pandas
+
+** Numpy
+
+** Docker
+
+** TensorFlow
+
+** PyTorch
+
+** OpenCV
+
+** Git
+
+** Scikit-learn
+
+** CI/CD
+
+** Agile
+
+** GCP
+
+* Data
+
+** Preprocessing
+
+** Lack of data
+
+*** Data augmentation
+:PROPERTIES:
+:ID:       D9E736F7-39D9-42D6-A5CF-F3BFBE9E780B
+:END:
+
+** Biased data
+
+** Dirty data
+
+** [[id:D601E384-D2B4-4410-BBC1-B70523155EED][big data]]
+* Model
+** Traditional model
+*** SVM
+*** K-means
+*** LMS
+*** Random forest
+*** Logistic regression
+*** Linear regression
+*** LDA
+*** KNN
+*** Decision tree
+*** Naive Bayes
+** Deep learning model
+*** SSD
+*** R-CNN
+*** Fast R-CNN
+*** Faster R-CNN
+*** Mask R-CNN
+*** YOLO
+*** LeNet
+*** GAN
+*** VGG
+*** GoogleNet
+*** ResNet
+*** FCN
+*** Diffusion
+*** Encoder-Decoder
+*** MLP
+* Python

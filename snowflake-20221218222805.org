@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       FA7BF5DC-6FEB-4639-9307-F674C1C799D9
-:END:
-#+title: Snowflake
-
-* Snowflake

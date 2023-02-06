@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       448BF75F-E062-4185-803B-DCD36034F149
-:END:
-#+title: Org-roam-ui
-

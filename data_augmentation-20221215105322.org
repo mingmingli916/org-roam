@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       EA4E8115-BC8F-4259-846B-A18623F0373C
-:END:
-#+title: Data Augmentation
-

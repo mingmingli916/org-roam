@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       D24CDF08-241C-4893-A95B-BCB42C5F4A1D
-:END:
-#+title: Azure
-

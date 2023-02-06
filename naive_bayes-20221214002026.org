@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       26C66CB9-A420-4C91-8713-22E591D13BCF
-:END:
-#+title: Naive Bayes
-

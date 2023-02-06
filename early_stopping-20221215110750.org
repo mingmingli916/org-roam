@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       DE42A8F5-9F75-4AB7-9834-F4C62C0B63B6
-:END:
-#+title: Early Stopping
-

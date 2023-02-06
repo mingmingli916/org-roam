@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       63E513E2-EEA5-4DDB-821F-9B05243195AF
-:END:
-#+title: Module Thought
-

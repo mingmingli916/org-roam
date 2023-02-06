@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       B77CE05E-29B0-4A01-86B5-4D8B2B2CE953
-:END:
-#+title: Array
-
-

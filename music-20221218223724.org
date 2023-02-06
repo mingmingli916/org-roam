@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       81AD1139-80DA-4ECB-8915-202B001C149A
-:END:
-#+title: Music
-
-* TODO [#C] Music[0/2]
-** TODO [#C] Lilipond Book
-** TODO [#C] Music Basics

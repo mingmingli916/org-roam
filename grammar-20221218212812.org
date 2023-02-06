@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       CC7AC40E-E976-418E-92E8-3B1C19A3EFB4
-:END:
-#+title: Grammar
-

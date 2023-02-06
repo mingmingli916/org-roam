@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       55600595-0EE4-4F4E-8E2D-0A32CA45F891
-:END:
-#+title: Reinforcement Learning
-

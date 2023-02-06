@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       E82BD1C3-7B40-43DB-84DB-45437B707B2F
-:END:
-#+title: K-Means
-

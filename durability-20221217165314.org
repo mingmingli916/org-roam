@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       AC28C361-3296-4AEF-A3A5-43315AA48779
-:END:
-#+title: Durability
-

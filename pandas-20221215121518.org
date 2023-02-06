@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       5ACFC76F-9F2B-4964-B055-D19F1CD34D07
-:END:
-#+title: Pandas
-

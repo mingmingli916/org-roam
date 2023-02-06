@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       5552A733-DC34-4CDA-85CA-E81D4BB7FB14
-:END:
-#+title: Kafka
-

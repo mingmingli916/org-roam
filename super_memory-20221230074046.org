@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       5B3CC29B-1DAA-4514-B0A3-70617C630526
-:END:
-#+title: Super Memory
-
-* Number
-
-* Letter

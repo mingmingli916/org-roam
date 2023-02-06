@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       5836AC53-79A9-477F-90DE-6E8F05E01333
-:END:
-#+title: Calendar Mode
-

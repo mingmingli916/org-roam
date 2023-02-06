@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       17CBA78F-BF7E-4C8D-9498-01274A5E3058
-:END:
-#+title: Atomicity
-

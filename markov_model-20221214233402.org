@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       1CA9E22D-EA1C-4999-A42B-3D80DA84CE77
-:END:
-#+title: Markov Model
-

@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       874A1751-A19D-4AE8-9F08-970A829EE9A4
-:END:
-#+title: Linear Algebra
-

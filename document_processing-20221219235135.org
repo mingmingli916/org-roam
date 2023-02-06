@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       0C810995-BCF1-49BB-80DD-DF0405AD4F5A
-:END:
-#+title: Document Processing
-

@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       A2F8B84D-B8CC-4763-9A83-FE239B671B0E
-:END:
-#+title: MCU
-
-MCU stands for MicroController Unit.
-
-A microcontroller contains one or more CPUs (processor cores) along with memory and programmable input/output peripherals.
-

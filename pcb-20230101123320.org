@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       70668B91-DE78-4F92-ACF5-388EF8B60F9C
-:END:
-#+title: PCB
-
-PCB: printed circuit board.
-
-

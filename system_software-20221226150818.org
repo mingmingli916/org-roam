@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       9EAEE46D-79B4-4B78-A8D7-AD00DD643FF9
-:END:
-#+title: System Software
-

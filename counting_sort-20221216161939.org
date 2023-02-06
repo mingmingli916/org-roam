@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       6A4548A7-09D1-4A7D-86E0-F000F94B06C6
-:END:
-#+title: Counting Sort
-

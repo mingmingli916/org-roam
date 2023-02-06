@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       15C3DB6A-2ABA-4FEC-9D46-200108103587
-:END:
-#+title: Virtualization Thought
-

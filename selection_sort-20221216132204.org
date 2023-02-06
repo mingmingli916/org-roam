@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       83188386-0DE9-4CA9-A5F0-849330E78382
-:END:
-#+title: Selection Sort
-

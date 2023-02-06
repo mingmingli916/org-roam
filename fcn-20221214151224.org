@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       4ACC20C2-B350-4907-BED4-6A5928C288FF
-:END:
-#+title: FCN
-Fully Convolutional Network
-

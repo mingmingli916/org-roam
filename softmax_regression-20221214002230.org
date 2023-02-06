@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       04888BCB-0583-4B3B-9C5A-8FD3CD9A22D1
-:END:
-#+title: Softmax Regression
-
-

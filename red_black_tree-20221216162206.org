@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       831AD692-8081-4A45-8A4C-F6FA7E5F57DE
-:END:
-#+title: Red-Black Tree
-

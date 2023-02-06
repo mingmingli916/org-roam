@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       75D06170-E5D0-4033-A8FA-25CB0931E405
+:END:
+#+title: thought
+* Abstraction
+* Divide and conquer
+* Container
+* Objectifying
+* History
+** Leetcode
+SCHEDULED: <2023-02-04 Sat ++1w>
+** Project
+SCHEDULED: <2023-03-05 Sun ++1m>
+
+
+
+* Bridge
+* Environment
+* Recourse
+* Information
+* Pattern
+* Configuration
+* Isolation
+* Virtualization
+* Cache
+* Modification
+* Version I
+This thought is important especially in programming.
+There is one common mistake that I often made.
+The mistake is that I want to program a project perfectly.
+When I think up something new I will change the project.
+This makes the project almost uncompleted.
+
+You can program a version I project that may be simple.
+Then you can refactor it afterward to get a better project that called version II.
+* Weight
+* Classification

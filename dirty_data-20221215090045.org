@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       EBEEF666-4C8C-44B2-876E-380A55D22156
-:END:
-#+title: Dirty Data
-

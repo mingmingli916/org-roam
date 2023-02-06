@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       F1DAB842-97D0-4C79-8BE3-79C7C086DC66
-:END:
-#+title: Isolation
-

@@ -1,5 +1,0 @@
-:PROPERTIES:
-:ID:       EF9F7760-82EB-4CEB-AE85-BE633D0576DA
-:END:
-#+title: Grammaire
-
